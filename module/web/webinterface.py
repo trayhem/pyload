@@ -77,9 +77,9 @@ if not exists(cache):
 bcc = FileSystemBytecodeCache(cache, '%s.cache')
 loader = PrefixLoader({
     "default": FileSystemLoader(join(PROJECT_DIR, "templates", "default")),
-    "next": FileSystemLoader(join(PROJECT_DIR, "templates", "next")),
+    "Next": FileSystemLoader(join(PROJECT_DIR, "templates", "Next")),
     "dark": FileSystemLoader(join(PROJECT_DIR, "templates", "dark")),
-    "flat": FileSystemLoader(join(PROJECT_DIR, "templates", "flat")),
+    "Flat": FileSystemLoader(join(PROJECT_DIR, "templates", "Flat")),
     'js': FileSystemLoader(join(PROJECT_DIR, 'media', 'js'))
 })
 
