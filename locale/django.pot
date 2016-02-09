@@ -8,679 +8,702 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pyLoad 0.4.9\n"
 "Report-Msgid-Bugs-To: 'bugs@pyload.org'\n"
-"POT-Creation-Date: 2011-12-07 19:21+0100\n"
+"POT-Creation-Date: 2016-02-09 12:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../module/web/templates\n"
+"X-Poedit-KeywordsList: \"_(\"\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: module/web/translations.js:1 module/web/templates/default/base.html:123
-#: module/web/templates/default/base.html:124
-#: module/web/templates/default/settings_item.html:14
-msgid "on"
-msgstr ""
-
-#: module/web/translations.js:2 module/web/templates/default/captcha.html:7
-msgid "Please read the text on the captcha."
-msgstr ""
-
-#: module/web/translations.js:3
-msgid "Settings saved."
-msgstr ""
-
-#: module/web/translations.js:4 module/web/templates/default/base.html:123
-#: module/web/templates/default/base.html:124
-#: module/web/templates/default/settings_item.html:16
-msgid "off"
-msgstr ""
-
-#: module/web/translations.js:5
-msgid "Success"
-msgstr ""
-
-#: module/web/translations.js:6
-msgid "Passwords did not match."
-msgstr ""
-
-#: module/web/translations.js:7
-msgid "Delete Link"
-msgstr ""
-
-#: module/web/translations.js:8
-msgid "pyLoad restarted"
-msgstr ""
-
-#: module/web/translations.js:9
-msgid "You are really sure you want to quit pyLoad?"
-msgstr ""
-
-#: module/web/translations.js:10
-msgid "Please Enter a packagename."
-msgstr ""
-
-#: module/web/translations.js:11
-msgid "Please click on the right captcha position."
-msgstr ""
-
-#: module/web/translations.js:12
-msgid "Error occured."
-msgstr ""
-
-#: module/web/translations.js:13
-msgid "New Captcha Request"
-msgstr ""
-
-#: module/web/translations.js:14
-msgid "Failed"
-msgstr ""
-
-#: module/web/translations.js:15
-msgid "No Captchas to read."
-msgstr ""
-
-#: module/web/translations.js:16
-#: module/web/templates/default/filemanager.html:65
-#: module/web/templates/default/folder.html:14
-msgid "Folder is empty"
-msgstr ""
-
-#: module/web/translations.js:17
-msgid "Restart Link"
-msgstr ""
-
-#: module/web/translations.js:18
-msgid "New folder"
-msgstr ""
-
-#: module/web/translations.js:19
-msgid "Are you sure you want to restart pyLoad?"
-msgstr ""
-
-#: module/web/pyload_app.py:125
-msgid "You dont have permission to access this page."
-msgstr ""
-
-#: module/web/pyload_app.py:193
-msgid "Download directory not found."
-msgstr ""
-
-#: module/web/pyload_app.py:260 module/web/pyload_app.py:267
-msgid "unlimited"
-msgstr ""
-
-#: module/web/pyload_app.py:262 module/web/pyload_app.py:269
-msgid "not available"
-msgstr ""
-
-#: module/web/pyload_app.py:509
-msgid "Run pyLoadCore.py -s to access the setup."
-msgstr ""
-
-#: module/web/json_app.py:60
-#, python-format
-msgid "waiting %s"
-msgstr ""
-
-#: module/web/templates/default/info.html:14
-#: module/web/templates/default/info.html:15
-#: module/web/templates/default/home.html:239
-msgid "Information"
-msgstr ""
-
-#: module/web/templates/default/info.html:18
-msgid "News"
-msgstr ""
-
-#: module/web/templates/default/info.html:21
-msgid "Support"
-msgstr ""
-
-#: module/web/templates/default/info.html:37
-msgid "System"
-msgstr ""
-
-#: module/web/templates/default/info.html:40
-msgid "Python:"
-msgstr ""
-
-#: module/web/templates/default/info.html:44
-msgid "OS:"
-msgstr ""
-
-#: module/web/templates/default/info.html:48
-msgid "pyLoad version:"
-msgstr ""
-
-#: module/web/templates/default/info.html:52
-msgid "Installation Folder:"
-msgstr ""
-
-#: module/web/templates/default/info.html:56
-msgid "Config Folder:"
-msgstr ""
-
-#: module/web/templates/default/info.html:60
-msgid "Download Folder:"
-msgstr ""
-
-#: module/web/templates/default/info.html:64
-msgid "Free Space:"
-msgstr ""
-
-#: module/web/templates/default/info.html:68
-msgid "Language:"
-msgstr ""
-
-#: module/web/templates/default/info.html:72
-msgid "Webinterface Port:"
-msgstr ""
-
-#: module/web/templates/default/info.html:76
-msgid "Remote Interface Port:"
-msgstr ""
-
-#: module/web/templates/default/downloads.html:6
-#: module/web/templates/default/base.html:93
-#: module/web/templates/default/home.html:220
-msgid "Downloads"
-msgstr ""
-
-#: module/web/templates/default/filemanager.html:19
-msgid "FileManager"
-msgstr ""
-
-#: module/web/templates/default/admin.html:8
-#: module/web/templates/default/admin.html:9
-#: module/web/templates/default/base.html:59
+#: Flat/admin.html:8 Flat/admin.html:9 Flat/base.html:59 Next/admin.html:8
+#: Next/admin.html:9 dark/admin.html:8 dark/admin.html:9 dark/base.html:59
+#: default/admin.html:8 default/admin.html:9 default/base.html:59
 msgid "Administrate"
 msgstr ""
 
-#: module/web/templates/default/admin.html:13
+#: Flat/admin.html:13 Next/admin.html:13 dark/admin.html:13
+#: default/admin.html:13
 msgid "Quit pyLoad"
 msgstr ""
 
-#: module/web/templates/default/admin.html:14
+#: Flat/admin.html:14 Next/admin.html:14 dark/admin.html:14
+#: default/admin.html:14
 msgid "Restart pyLoad"
 msgstr ""
 
-#: module/web/templates/default/admin.html:18
+#: Flat/admin.html:18 Next/admin.html:19 dark/admin.html:18
+#: default/admin.html:18
 msgid "To add user or change passwords use:"
 msgstr ""
 
-#: module/web/templates/default/admin.html:19
+#: Flat/admin.html:19 Next/admin.html:20 dark/admin.html:19
+#: default/admin.html:19
 msgid "Important: Admin user have always all permissions!"
 msgstr ""
 
-#: module/web/templates/default/admin.html:25
-#: module/web/templates/default/settings.html:91
-#: module/web/templates/default/queue.html:82
-#: module/web/templates/default/window.html:7
-#: module/web/templates/default/home.html:237
+#: Flat/admin.html:25 Flat/home.html:237 Flat/queue.html:82
+#: Flat/settings.html:91 Flat/window.html:7 Next/admin.html:27
+#: Next/home.html:247 Next/queue.html:86 Next/settings.html:96
+#: Next/window.html:8 dark/admin.html:25 dark/home.html:237 dark/queue.html:82
+#: dark/settings.html:91 dark/window.html:7 default/admin.html:25
+#: default/home.html:237 default/queue.html:82 default/settings.html:92
+#: default/window.html:7
 msgid "Name"
 msgstr ""
 
-#: module/web/templates/default/admin.html:28
-#: module/web/templates/default/admin.html:67
+#: Flat/admin.html:28 Flat/admin.html:67 Next/admin.html:30 Next/admin.html:68
+#: dark/admin.html:28 dark/admin.html:67 default/admin.html:28
+#: default/admin.html:68
 msgid "Change Password"
 msgstr ""
 
-#: module/web/templates/default/admin.html:31
+#: Flat/admin.html:31 Next/admin.html:33 dark/admin.html:31
+#: default/admin.html:31
 msgid "Admin"
 msgstr ""
 
-#: module/web/templates/default/admin.html:34
+#: Flat/admin.html:34 Next/admin.html:36 dark/admin.html:34
+#: default/admin.html:34
 msgid "Permissions"
 msgstr ""
 
-#: module/web/templates/default/admin.html:41
+#: Flat/admin.html:41 Next/admin.html:43 dark/admin.html:41
+#: default/admin.html:41
 msgid "change"
 msgstr ""
 
-#: module/web/templates/default/admin.html:61
-#: module/web/templates/default/admin.html:91
-#: module/web/templates/default/settings.html:167
-#: module/web/templates/default/queue.html:97
-#: module/web/templates/default/captcha.html:33
+#: Flat/admin.html:61 Flat/admin.html:91 Flat/captcha.html:33
+#: Flat/queue.html:97 Flat/settings.html:167 Next/admin.html:62
+#: Next/admin.html:94 Next/captcha.html:31 Next/queue.html:100
+#: Next/settings.html:51 Next/settings.html:173 dark/admin.html:61
+#: dark/admin.html:91 dark/captcha.html:33 dark/queue.html:97
+#: dark/settings.html:167 default/admin.html:62 default/admin.html:92
+#: default/captcha.html:33 default/queue.html:97 default/settings.html:168
 msgid "Submit"
 msgstr ""
 
-#: module/web/templates/default/admin.html:69
+#: Flat/admin.html:69 Next/admin.html:69 dark/admin.html:69
+#: default/admin.html:70
 msgid "Enter your current and desired Password."
 msgstr ""
 
-#: module/web/templates/default/admin.html:70
+#: Flat/admin.html:70 Next/admin.html:72 dark/admin.html:70
+#: default/admin.html:71
 msgid "User"
 msgstr ""
 
-#: module/web/templates/default/admin.html:71
-#: module/web/templates/default/settings.html:179
+#: Flat/admin.html:71 Flat/settings.html:179 Next/admin.html:74
+#: Next/settings.html:188 dark/admin.html:71 dark/settings.html:179
+#: default/admin.html:72 default/settings.html:180
 msgid "Your username."
 msgstr ""
 
-#: module/web/templates/default/admin.html:75
+#: Flat/admin.html:75 Next/admin.html:77 dark/admin.html:75
+#: default/admin.html:76
 msgid "Current password"
 msgstr ""
 
-#: module/web/templates/default/admin.html:76
-#: module/web/templates/default/settings.html:184
+#: Flat/admin.html:76 Flat/settings.html:184 Next/admin.html:79
+#: Next/settings.html:193 dark/admin.html:76 dark/settings.html:184
+#: default/admin.html:77 default/settings.html:185
 msgid "The password for this account."
 msgstr ""
 
-#: module/web/templates/default/admin.html:80
+#: Flat/admin.html:80 Next/admin.html:82 dark/admin.html:80
+#: default/admin.html:81
 msgid "New password"
 msgstr ""
 
-#: module/web/templates/default/admin.html:81
+#: Flat/admin.html:81 Next/admin.html:84 dark/admin.html:81
+#: default/admin.html:82
 msgid "The new password."
 msgstr ""
 
-#: module/web/templates/default/admin.html:85
+#: Flat/admin.html:85 Next/admin.html:87 dark/admin.html:85
+#: default/admin.html:86
 msgid "New password (repeat)"
 msgstr ""
 
-#: module/web/templates/default/admin.html:86
+#: Flat/admin.html:86 Next/admin.html:89 dark/admin.html:86
+#: default/admin.html:87
 msgid "Please repeat the new password."
 msgstr ""
 
-#: module/web/templates/default/admin.html:92
-#: module/web/templates/default/settings.html:198
-#: module/web/templates/default/queue.html:98
-#: module/web/templates/default/window.html:41
+#: Flat/admin.html:92 Flat/queue.html:98 Flat/settings.html:198
+#: Flat/window.html:41 Next/admin.html:95 Next/queue.html:101
+#: Next/settings.html:207 Next/window.html:41 dark/admin.html:92
+#: dark/queue.html:98 dark/settings.html:198 dark/window.html:47
+#: default/admin.html:93 default/queue.html:98 default/settings.html:199
+#: default/window.html:41
 msgid "Reset"
 msgstr ""
 
-#: module/web/templates/default/settings.html:3
-#: module/web/templates/default/settings.html:4
-#: module/web/templates/default/base.html:102
-#: module/web/templates/default/home.html:229
-msgid "Config"
-msgstr ""
-
-#: module/web/templates/default/settings.html:16
-msgid "General"
-msgstr ""
-
-#: module/web/templates/default/settings.html:17
-msgid "Plugins"
-msgstr ""
-
-#: module/web/templates/default/settings.html:18
-msgid "Accounts"
-msgstr ""
-
-#: module/web/templates/default/settings.html:45
-#: module/web/templates/default/settings.html:74
-msgid "Choose a section from the menu"
-msgstr ""
-
-#: module/web/templates/default/settings.html:90
-msgid "Plugin"
-msgstr ""
-
-#: module/web/templates/default/settings.html:92
-#: module/web/templates/default/settings.html:183
-#: module/web/templates/default/login.html:19
-#: module/web/templates/default/queue.html:92
-#: module/web/templates/default/window.html:21
-msgid "Password"
-msgstr ""
-
-#: module/web/templates/default/settings.html:93
-#: module/web/templates/default/home.html:238
-msgid "Status"
-msgstr ""
-
-#: module/web/templates/default/settings.html:94
-msgid "Premium"
-msgstr ""
-
-#: module/web/templates/default/settings.html:95
-msgid "Valid until"
-msgstr ""
-
-#: module/web/templates/default/settings.html:96
-msgid "Traffic left"
-msgstr ""
-
-#: module/web/templates/default/settings.html:97
-msgid "Time"
-msgstr ""
-
-#: module/web/templates/default/settings.html:98
-msgid "Max Parallel"
-msgstr ""
-
-#: module/web/templates/default/settings.html:99
-msgid "Delete?"
-msgstr ""
-
-#: module/web/templates/default/settings.html:121
-msgid "valid"
-msgstr ""
-
-#: module/web/templates/default/settings.html:124
-msgid "not valid"
-msgstr ""
-
-#: module/web/templates/default/settings.html:131
-msgid "yes"
-msgstr ""
-
-#: module/web/templates/default/settings.html:134
-msgid "no"
-msgstr ""
-
-#: module/web/templates/default/settings.html:168
-#: module/web/templates/default/settings.html:197
-#: module/web/templates/default/base.html:117
-msgid "Add"
-msgstr ""
-
-#: module/web/templates/default/settings.html:176
-msgid "Add Account"
-msgstr ""
-
-#: module/web/templates/default/settings.html:177
-msgid "Enter your account data to use premium features."
-msgstr ""
-
-#: module/web/templates/default/settings.html:178
-#: module/web/templates/default/login.html:3
-msgid "Login"
-msgstr ""
-
-#: module/web/templates/default/settings.html:188
-msgid "Type"
-msgstr ""
-
-#: module/web/templates/default/settings.html:189
-msgid "Choose the hoster for your account."
-msgstr ""
-
-#: module/web/templates/default/pathchooser.html:39
-#: module/web/templates/default/pathchooser.html:41
-msgid "Path"
-msgstr ""
-
-#: module/web/templates/default/pathchooser.html:39
-#: module/web/templates/default/pathchooser.html:41
-msgid "absolute"
-msgstr ""
-
-#: module/web/templates/default/pathchooser.html:39
-#: module/web/templates/default/pathchooser.html:41
-msgid "relative"
-msgstr ""
-
-#: module/web/templates/default/pathchooser.html:46
-msgid "name"
-msgstr ""
-
-#: module/web/templates/default/pathchooser.html:47
-msgid "size"
-msgstr ""
-
-#: module/web/templates/default/pathchooser.html:48
-msgid "type"
-msgstr ""
-
-#: module/web/templates/default/pathchooser.html:49
-msgid "last modified"
-msgstr ""
-
-#: module/web/templates/default/pathchooser.html:54
-msgid "parent directory"
-msgstr ""
-
-#: module/web/templates/default/pathchooser.html:70
-msgid "no content"
-msgstr ""
-
-#: module/web/templates/default/setup.html:3
-#: module/web/templates/default/setup.html:4
-msgid "Setup"
-msgstr ""
-
-#: module/web/templates/default/login.html:14
-msgid "Username"
-msgstr ""
-
-#: module/web/templates/default/login.html:29
-msgid "Your username and password didn't match. Please try again."
-msgstr ""
-
-#: module/web/templates/default/login.html:30
-msgid "To reset your login data or add an user run:"
-msgstr ""
-
-#: module/web/templates/default/base.html:20
-#: module/web/templates/default/base.html:139
+#: Flat/base.html:20 Flat/base.html:138 Next/base.html:24 Next/base.html:166
+#: dark/base.html:20 dark/base.html:139 default/base.html:20
+#: default/base.html:139
 msgid "Webinterface"
 msgstr ""
 
-#: module/web/templates/default/base.html:39
+#: Flat/base.html:39 Next/base.html:43 dark/base.html:39 default/base.html:39
 msgid "pyLoad Update available!"
 msgstr ""
 
-#: module/web/templates/default/base.html:46
+#: Flat/base.html:46 Next/base.html:50 dark/base.html:46 default/base.html:46
 msgid "Plugins updated, please restart!"
 msgstr ""
 
-#: module/web/templates/default/base.html:52
+#: Flat/base.html:52 Next/base.html:143 dark/base.html:52 default/base.html:52
 msgid "Captcha waiting"
 msgstr ""
 
-#: module/web/templates/default/base.html:57
+#: Flat/base.html:57 dark/base.html:57 default/base.html:57
 msgid "Logout"
 msgstr ""
 
-#: module/web/templates/default/base.html:61
+#: Flat/base.html:61 dark/base.html:61 default/base.html:61
 msgid "Info"
 msgstr ""
 
-#: module/web/templates/default/base.html:65
+#: Flat/base.html:65 Next/base.html:60 dark/base.html:65 default/base.html:65
 msgid "Please Login!"
 msgstr ""
 
-#: module/web/templates/default/base.html:84
-#: module/web/templates/default/home.html:211
+#: Flat/base.html:84 Flat/home.html:211 Next/base.html:92 dark/base.html:84
+#: dark/home.html:211 default/base.html:84 default/home.html:211
 msgid "Home"
 msgstr ""
 
-#: module/web/templates/default/base.html:87
-#: module/web/templates/default/queue.html:15
-#: module/web/templates/default/window.html:34
-#: module/web/templates/default/home.html:214
+#: Flat/base.html:87 Flat/home.html:214 Flat/queue.html:15 Flat/window.html:34
+#: Next/base.html:95 Next/queue.html:15 Next/window.html:34 dark/base.html:87
+#: dark/home.html:214 dark/queue.html:15 dark/window.html:36
+#: default/base.html:87 default/home.html:214 default/queue.html:15
+#: default/window.html:34
 msgid "Queue"
 msgstr ""
 
-#: module/web/templates/default/base.html:90
-#: module/web/templates/default/queue.html:17
-#: module/web/templates/default/window.html:36
-#: module/web/templates/default/home.html:217
+#: Flat/base.html:90 Flat/home.html:217 Flat/queue.html:17 Flat/window.html:36
+#: Next/base.html:98 Next/queue.html:17 Next/window.html:36 dark/base.html:90
+#: dark/home.html:217 dark/queue.html:17 dark/window.html:40
+#: default/base.html:90 default/home.html:217 default/queue.html:17
+#: default/window.html:36
 msgid "Collector"
 msgstr ""
 
-#: module/web/templates/default/base.html:99
-#: module/web/templates/default/logs.html:3
-#: module/web/templates/default/logs.html:4
-#: module/web/templates/default/home.html:226
+#: Flat/base.html:93 Flat/downloads.html:6 Flat/home.html:220
+#: Next/base.html:101 Next/downloads.html:6 dark/base.html:93
+#: dark/downloads.html:6 dark/home.html:220 default/base.html:93
+#: default/downloads.html:6 default/home.html:220
+msgid "Downloads"
+msgstr ""
+
+#: Flat/base.html:99 Flat/home.html:226 Flat/logs.html:3 Flat/logs.html:4
+#: Next/base.html:107 Next/logs.html:3 Next/logs.html:4 dark/base.html:99
+#: dark/home.html:226 dark/logs.html:3 dark/logs.html:4 default/base.html:99
+#: default/home.html:226 default/logs.html:3 default/logs.html:4
 msgid "Logs"
 msgstr ""
 
-#: module/web/templates/default/base.html:114
-#: module/web/templates/default/logs.html:12
+#: Flat/base.html:102 Flat/home.html:229 Flat/settings.html:3
+#: Flat/settings.html:4 Next/base.html:110 Next/settings.html:3
+#: Next/settings.html:4 dark/base.html:102 dark/home.html:229
+#: dark/settings.html:3 dark/settings.html:4 default/base.html:102
+#: default/home.html:229 default/settings.html:3 default/settings.html:4
+msgid "Config"
+msgstr ""
+
+#: Flat/base.html:114 Flat/logs.html:12 dark/base.html:114 dark/logs.html:12
+#: default/base.html:114 default/logs.html:12
 msgid "Start"
 msgstr ""
 
-#: module/web/templates/default/base.html:115
+#: Flat/base.html:115 dark/base.html:115 default/base.html:115
 msgid "Stop"
 msgstr ""
 
-#: module/web/templates/default/base.html:116
+#: Flat/base.html:116 dark/base.html:116 default/base.html:116
 msgid "Cancel"
 msgstr ""
 
-#: module/web/templates/default/base.html:123
+#: Flat/base.html:117 Flat/settings.html:168 Flat/settings.html:197
+#: Next/settings.html:206 dark/base.html:117 dark/settings.html:168
+#: dark/settings.html:197 default/base.html:117 default/settings.html:169
+#: default/settings.html:198
+msgid "Add"
+msgstr ""
+
+#: Flat/base.html:123 Next/base.html:150 dark/base.html:123
+#: default/base.html:123
 msgid "Download:"
 msgstr ""
 
-#: module/web/templates/default/base.html:124
-msgid "Reconnect:"
+#: Flat/base.html:123 Flat/settings_item.html:14 Next/base.html:151
+#: Next/settings_item.html:15 dark/base.html:123 dark/base.html:124
+#: dark/settings_item.html:14 default/base.html:123 default/base.html:124
+#: default/settings_item.html:14
+msgid "on"
 msgstr ""
 
-#: module/web/templates/default/base.html:125
+#: Flat/base.html:123 Flat/settings_item.html:16 Next/base.html:150
+#: Next/base.html:151 Next/settings_item.html:17 dark/base.html:123
+#: dark/base.html:124 dark/settings_item.html:16 default/base.html:123
+#: default/base.html:124 default/settings_item.html:16
+msgid "off"
+msgstr ""
+
+#: Flat/base.html:124 Next/base.html:152 dark/base.html:125
+#: default/base.html:125
 msgid "Speed:"
 msgstr ""
 
-#: module/web/templates/default/base.html:126
+#: Flat/base.html:125 Next/base.html:153 dark/base.html:126
+#: default/base.html:126
 msgid "Active:"
 msgstr ""
 
-#: module/web/templates/default/base.html:127
+#: Flat/base.html:126 dark/base.html:127 default/base.html:127
 msgid "Reload page"
 msgstr ""
 
-#: module/web/templates/default/base.html:157
+#: Flat/base.html:156 Next/base.html:176 dark/base.html:157
+#: default/base.html:157
 msgid "loading"
 msgstr ""
 
-#: module/web/templates/default/base.html:166
+#: Flat/base.html:165 Next/base.html:185 dark/base.html:166
+#: default/base.html:166
 msgid "Back to top"
 msgstr ""
 
-#: module/web/templates/default/logs.html:12
-msgid "prev"
-msgstr ""
-
-#: module/web/templates/default/logs.html:12
-msgid "next"
-msgstr ""
-
-#: module/web/templates/default/logs.html:12
-msgid "End"
-msgstr ""
-
-#: module/web/templates/default/logout.html:8
-msgid "You were successfully logged out."
-msgstr ""
-
-#: module/web/templates/default/queue.html:25
-msgid "Delete Finished"
-msgstr ""
-
-#: module/web/templates/default/queue.html:26
-msgid "Restart Failed"
-msgstr ""
-
-#: module/web/templates/default/queue.html:65
-msgid "Folder:"
-msgstr ""
-
-#: module/web/templates/default/queue.html:65
-msgid "Password:"
-msgstr ""
-
-#: module/web/templates/default/queue.html:79
-msgid "Edit Package"
-msgstr ""
-
-#: module/web/templates/default/queue.html:80
-msgid "Edit the package detais below."
-msgstr ""
-
-#: module/web/templates/default/queue.html:83
-msgid "The name of the package."
-msgstr ""
-
-#: module/web/templates/default/queue.html:87
-msgid "Folder"
-msgstr ""
-
-#: module/web/templates/default/queue.html:88
-msgid "Name of subfolder for these downloads."
-msgstr ""
-
-#: module/web/templates/default/queue.html:93
-msgid "List of passwords used for unrar."
-msgstr ""
-
-#: module/web/templates/default/window.html:5
-#: module/web/templates/default/window.html:40
-msgid "Add Package"
-msgstr ""
-
-#: module/web/templates/default/window.html:6
-msgid "Paste your links or upload a container."
-msgstr ""
-
-#: module/web/templates/default/window.html:8
-msgid "The name of the new package."
-msgstr ""
-
-#: module/web/templates/default/window.html:12
-msgid "Links"
-msgstr ""
-
-#: module/web/templates/default/window.html:13
-msgid "Paste your links here or any text and press the filter button."
-msgstr ""
-
-#: module/web/templates/default/window.html:14
-msgid "Filter urls"
-msgstr ""
-
-#: module/web/templates/default/window.html:22
-msgid "Password for RAR-Archive"
-msgstr ""
-
-#: module/web/templates/default/window.html:26
-msgid "File"
-msgstr ""
-
-#: module/web/templates/default/window.html:27
-msgid "Upload a container."
-msgstr ""
-
-#: module/web/templates/default/window.html:31
-msgid "Destination"
-msgstr ""
-
-#: module/web/templates/default/home.html:206
-msgid "Active Downloads"
-msgstr ""
-
-#: module/web/templates/default/home.html:240
-msgid "Size"
-msgstr ""
-
-#: module/web/templates/default/home.html:241
-msgid "Progress"
-msgstr ""
-
-#: module/web/templates/default/captcha.html:6
+#: Flat/captcha.html:6 Next/captcha.html:6 dark/captcha.html:6
+#: default/captcha.html:6
 msgid "Captcha reading"
 msgstr ""
 
-#: module/web/templates/default/captcha.html:13
+#: Flat/captcha.html:7 Next/captcha.html:7 dark/captcha.html:7
+#: default/captcha.html:7
+msgid "Please read the text on the captcha."
+msgstr ""
+
+#: Flat/captcha.html:13 Next/captcha.html:14 dark/captcha.html:13
+#: default/captcha.html:13
 msgid "Captcha"
 msgstr ""
 
-#: module/web/templates/default/captcha.html:14
+#: Flat/captcha.html:14 dark/captcha.html:14 default/captcha.html:14
 msgid "The captcha."
 msgstr ""
 
-#: module/web/templates/default/captcha.html:20
+#: Flat/captcha.html:20 Next/captcha.html:20 dark/captcha.html:20
+#: default/captcha.html:20
 msgid "Text"
 msgstr ""
 
-#: module/web/templates/default/captcha.html:21
+#: Flat/captcha.html:21 Next/captcha.html:22 dark/captcha.html:21
+#: default/captcha.html:21
 msgid "Input the text on the captcha."
 msgstr ""
 
-#: module/web/templates/default/captcha.html:34
+#: Flat/captcha.html:34 Next/captcha.html:32 dark/captcha.html:34
+#: default/captcha.html:34
 msgid "Close"
+msgstr ""
+
+#: Flat/filemanager.html:19 Next/filemanager.html:19 dark/filemanager.html:19
+#: default/filemanager.html:19
+msgid "FileManager"
+msgstr ""
+
+#: Flat/filemanager.html:65 Flat/folder.html:14 Next/filemanager.html:65
+#: Next/folder.html:14 dark/filemanager.html:65 dark/folder.html:14
+#: default/filemanager.html:65 default/folder.html:14
+msgid "Folder is empty"
+msgstr ""
+
+#: Flat/home.html:206 Next/home.html:241 dark/home.html:206
+#: default/home.html:206
+msgid "Active Downloads"
+msgstr ""
+
+#: Flat/home.html:238 Flat/settings.html:93 Next/home.html:246
+#: Next/settings.html:98 dark/home.html:238 dark/settings.html:93
+#: default/home.html:238 default/settings.html:94
+msgid "Status"
+msgstr ""
+
+#: Flat/home.html:239 Flat/info.html:14 Flat/info.html:15 Next/home.html:248
+#: Next/info.html:14 Next/info.html:15 dark/home.html:239 dark/info.html:6
+#: dark/info.html:7 default/home.html:239 default/info.html:14
+#: default/info.html:15
+msgid "Information"
+msgstr ""
+
+#: Flat/home.html:240 Next/home.html:249 dark/home.html:240
+#: default/home.html:240
+msgid "Size"
+msgstr ""
+
+#: Flat/home.html:241 Next/home.html:250 dark/home.html:241
+#: default/home.html:241
+msgid "Progress"
+msgstr ""
+
+#: Flat/info.html:18 Next/info.html:18 dark/info.html:10 default/info.html:18
+msgid "News"
+msgstr ""
+
+#: Flat/info.html:21 Next/info.html:21 dark/info.html:16 default/info.html:21
+msgid "Support"
+msgstr ""
+
+#: Flat/info.html:37 Next/info.html:37 dark/info.html:32 default/info.html:37
+msgid "System"
+msgstr ""
+
+#: Flat/info.html:40 Next/info.html:40 dark/info.html:35 default/info.html:40
+msgid "Python:"
+msgstr ""
+
+#: Flat/info.html:44 Next/info.html:44 dark/info.html:39 default/info.html:44
+msgid "OS:"
+msgstr ""
+
+#: Flat/info.html:48 Next/info.html:48 dark/info.html:43 default/info.html:48
+msgid "pyLoad version:"
+msgstr ""
+
+#: Flat/info.html:52 Next/info.html:52 dark/info.html:47 default/info.html:52
+msgid "Installation Folder:"
+msgstr ""
+
+#: Flat/info.html:56 Next/info.html:56 dark/info.html:51 default/info.html:56
+msgid "Config Folder:"
+msgstr ""
+
+#: Flat/info.html:60 Next/info.html:60 dark/info.html:55 default/info.html:60
+msgid "Download Folder:"
+msgstr ""
+
+#: Flat/info.html:64 Next/info.html:64 dark/info.html:59 default/info.html:64
+msgid "Free Space:"
+msgstr ""
+
+#: Flat/info.html:68 Next/info.html:68 dark/info.html:63 default/info.html:68
+msgid "Language:"
+msgstr ""
+
+#: Flat/info.html:72 Next/info.html:72 dark/info.html:67 default/info.html:72
+msgid "Webinterface Port:"
+msgstr ""
+
+#: Flat/info.html:76 Next/info.html:76 dark/info.html:71 default/info.html:76
+msgid "Remote Interface Port:"
+msgstr ""
+
+#: Flat/login.html:3 Flat/settings.html:178 Next/login.html:3
+#: Next/settings.html:186 dark/login.html:3 dark/settings.html:178
+#: default/login.html:3 default/settings.html:179
+msgid "Login"
+msgstr ""
+
+#: Flat/login.html:14 Next/login.html:14 dark/login.html:18
+#: default/login.html:14
+msgid "Username"
+msgstr ""
+
+#: Flat/login.html:19 Flat/queue.html:92 Flat/settings.html:92
+#: Flat/settings.html:183 Flat/window.html:21 Next/login.html:19
+#: Next/queue.html:96 Next/settings.html:97 Next/settings.html:191
+#: Next/window.html:22 dark/login.html:22 dark/queue.html:92
+#: dark/settings.html:92 dark/settings.html:183 dark/window.html:21
+#: default/login.html:19 default/queue.html:92 default/settings.html:93
+#: default/settings.html:184 default/window.html:21
+msgid "Password"
+msgstr ""
+
+#: Flat/login.html:29 Next/login.html:29 dark/login.html:14
+#: default/login.html:29
+msgid "Your username and password didn't match. Please try again."
+msgstr ""
+
+#: Flat/login.html:30 Next/login.html:30 default/login.html:30
+msgid "To reset your login data or add an user run:"
+msgstr ""
+
+#: Flat/logout.html:8 Next/logout.html:8 dark/logout.html:8
+#: default/logout.html:8
+msgid "You were successfully logged out."
+msgstr ""
+
+#: Flat/logs.html:12 dark/logs.html:12 default/logs.html:12
+msgid "prev"
+msgstr ""
+
+#: Flat/logs.html:12 dark/logs.html:12 default/logs.html:12
+msgid "next"
+msgstr ""
+
+#: Flat/logs.html:12 dark/logs.html:12 default/logs.html:12
+msgid "End"
+msgstr ""
+
+#: Flat/pathchooser.html:39 Flat/pathchooser.html:41 Next/pathchooser.html:39
+#: Next/pathchooser.html:41 dark/pathchooser.html:39 dark/pathchooser.html:41
+#: default/pathchooser.html:39 default/pathchooser.html:41
+msgid "Path"
+msgstr ""
+
+#: Flat/pathchooser.html:39 Flat/pathchooser.html:41 Next/pathchooser.html:39
+#: Next/pathchooser.html:41 dark/pathchooser.html:39 dark/pathchooser.html:41
+#: default/pathchooser.html:39 default/pathchooser.html:41
+msgid "absolute"
+msgstr ""
+
+#: Flat/pathchooser.html:39 Flat/pathchooser.html:41 Next/pathchooser.html:39
+#: Next/pathchooser.html:41 dark/pathchooser.html:39 dark/pathchooser.html:41
+#: default/pathchooser.html:39 default/pathchooser.html:41
+msgid "relative"
+msgstr ""
+
+#: Flat/pathchooser.html:46 Next/pathchooser.html:46 dark/pathchooser.html:46
+#: default/pathchooser.html:46
+msgid "name"
+msgstr ""
+
+#: Flat/pathchooser.html:47 Next/pathchooser.html:47 dark/pathchooser.html:47
+#: default/pathchooser.html:47
+msgid "size"
+msgstr ""
+
+#: Flat/pathchooser.html:48 Next/pathchooser.html:48 dark/pathchooser.html:48
+#: default/pathchooser.html:48
+msgid "type"
+msgstr ""
+
+#: Flat/pathchooser.html:49 Next/pathchooser.html:49 dark/pathchooser.html:49
+#: default/pathchooser.html:49
+msgid "last modified"
+msgstr ""
+
+#: Flat/pathchooser.html:54 Next/pathchooser.html:54 dark/pathchooser.html:54
+#: default/pathchooser.html:54
+msgid "parent directory"
+msgstr ""
+
+#: Flat/pathchooser.html:70 Next/pathchooser.html:70 dark/pathchooser.html:70
+#: default/pathchooser.html:70
+msgid "no content"
+msgstr ""
+
+#: Flat/queue.html:25 Next/queue.html:22 dark/queue.html:25
+#: default/queue.html:25
+msgid "Delete Finished"
+msgstr ""
+
+#: Flat/queue.html:26 Next/queue.html:23 dark/queue.html:26
+#: default/queue.html:26
+msgid "Restart Failed"
+msgstr ""
+
+#: Flat/queue.html:65 Next/queue.html:66 dark/queue.html:65
+#: default/queue.html:65
+msgid "Folder:"
+msgstr ""
+
+#: Flat/queue.html:65 Next/queue.html:66 dark/queue.html:65
+#: default/queue.html:65
+msgid "Password:"
+msgstr ""
+
+#: Flat/queue.html:79 Next/queue.html:80 dark/queue.html:79
+#: default/queue.html:79
+msgid "Edit Package"
+msgstr ""
+
+#: Flat/queue.html:80 Next/queue.html:81 dark/queue.html:80
+#: default/queue.html:80
+msgid "Edit the package detais below."
+msgstr ""
+
+#: Flat/queue.html:83 Next/queue.html:88 dark/queue.html:83
+#: default/queue.html:83
+msgid "The name of the package."
+msgstr ""
+
+#: Flat/queue.html:87 Next/queue.html:91 dark/queue.html:87
+#: default/queue.html:87
+msgid "Folder"
+msgstr ""
+
+#: Flat/queue.html:88 Next/queue.html:93 dark/queue.html:88
+#: default/queue.html:88
+msgid "Name of subfolder for these downloads."
+msgstr ""
+
+#: Flat/queue.html:93 Next/queue.html:98 dark/queue.html:93
+#: default/queue.html:93
+msgid "List of passwords used for unrar."
+msgstr ""
+
+#: Flat/settings.html:16 Next/settings.html:16 dark/settings.html:16
+#: default/settings.html:16
+msgid "General"
+msgstr ""
+
+#: Flat/settings.html:17 Next/settings.html:17 dark/settings.html:17
+#: default/settings.html:17
+msgid "Plugins"
+msgstr ""
+
+#: Flat/settings.html:18 Next/settings.html:18 dark/settings.html:18
+#: default/settings.html:18
+msgid "Accounts"
+msgstr ""
+
+#: Flat/settings.html:45 Flat/settings.html:74 Next/settings.html:47
+#: Next/settings.html:79 dark/settings.html:45 dark/settings.html:74
+#: default/settings.html:45 default/settings.html:75
+msgid "Choose a section from the menu"
+msgstr ""
+
+#: Flat/settings.html:90 Next/settings.html:95 dark/settings.html:90
+#: default/settings.html:91
+msgid "Plugin"
+msgstr ""
+
+#: Flat/settings.html:94 Next/settings.html:99 dark/settings.html:94
+#: default/settings.html:95
+msgid "Premium"
+msgstr ""
+
+#: Flat/settings.html:95 Next/settings.html:100 dark/settings.html:95
+#: default/settings.html:96
+msgid "Valid until"
+msgstr ""
+
+#: Flat/settings.html:96 Next/settings.html:101 dark/settings.html:96
+#: default/settings.html:97
+msgid "Traffic left"
+msgstr ""
+
+#: Flat/settings.html:97 Next/settings.html:102 dark/settings.html:97
+#: default/settings.html:98
+msgid "Time"
+msgstr ""
+
+#: Flat/settings.html:98 Next/settings.html:103 dark/settings.html:98
+#: default/settings.html:99
+msgid "Max Parallel"
+msgstr ""
+
+#: Flat/settings.html:99 Next/settings.html:104 dark/settings.html:99
+#: default/settings.html:100
+msgid "Delete?"
+msgstr ""
+
+#: Flat/settings.html:121 Next/settings.html:126 dark/settings.html:121
+#: default/settings.html:122
+msgid "valid"
+msgstr ""
+
+#: Flat/settings.html:124 Next/settings.html:129 dark/settings.html:124
+#: default/settings.html:125
+msgid "not valid"
+msgstr ""
+
+#: Flat/settings.html:131 Next/settings.html:136 dark/settings.html:131
+#: default/settings.html:132
+msgid "yes"
+msgstr ""
+
+#: Flat/settings.html:134 Next/settings.html:139 dark/settings.html:134
+#: default/settings.html:135
+msgid "no"
+msgstr ""
+
+#: Flat/settings.html:176 Next/settings.html:182 dark/settings.html:176
+#: default/settings.html:177
+msgid "Add Account"
+msgstr ""
+
+#: Flat/settings.html:177 Next/settings.html:183 dark/settings.html:177
+#: default/settings.html:178
+msgid "Enter your account data to use premium features."
+msgstr ""
+
+#: Flat/settings.html:188 Next/settings.html:196 dark/settings.html:188
+#: default/settings.html:189
+msgid "Type"
+msgstr ""
+
+#: Flat/settings.html:189 Next/settings.html:197 dark/settings.html:189
+#: default/settings.html:190
+msgid "Choose the hoster for your account."
+msgstr ""
+
+#: Flat/setup.html:3 Flat/setup.html:4 dark/setup.html:3 dark/setup.html:4
+#: default/setup.html:3 default/setup.html:4
+msgid "Setup"
+msgstr ""
+
+#: Flat/window.html:5 Flat/window.html:40 Next/window.html:5
+#: Next/window.html:40 dark/window.html:5 dark/window.html:46
+#: default/window.html:5 default/window.html:40
+msgid "Add Package"
+msgstr ""
+
+#: Flat/window.html:6 Next/window.html:6 dark/window.html:6
+#: default/window.html:6
+msgid "Paste your links or upload a container."
+msgstr ""
+
+#: Flat/window.html:8 Next/window.html:10 Next/window.html:19
+#: dark/window.html:8 default/window.html:8
+msgid "The name of the new package."
+msgstr ""
+
+#: Flat/window.html:12 Next/window.html:13 dark/window.html:12
+#: default/window.html:12
+msgid "Links"
+msgstr ""
+
+#: Flat/window.html:13 dark/window.html:13 default/window.html:13
+msgid "Paste your links here or any text and press the filter button."
+msgstr ""
+
+#: Flat/window.html:14 Next/window.html:19 dark/window.html:14
+#: default/window.html:14
+msgid "Filter urls"
+msgstr ""
+
+#: Flat/window.html:22 Next/window.html:24 dark/window.html:22
+#: default/window.html:22
+msgid "Password for RAR-Archive"
+msgstr ""
+
+#: Flat/window.html:26 Next/window.html:27 dark/window.html:26
+#: default/window.html:26
+msgid "File"
+msgstr ""
+
+#: Flat/window.html:27 Next/window.html:29 dark/window.html:27
+#: default/window.html:27
+msgid "Upload a container."
+msgstr ""
+
+#: Flat/window.html:31 Next/window.html:32 dark/window.html:31
+#: default/window.html:31
+msgid "Destination"
+msgstr ""
+
+#: Next/base.html:151 dark/base.html:124 default/base.html:124
+msgid "Reconnect:"
+msgstr ""
+
+#: Next/settings.html:61
+msgid "Enter plugin name here..."
 msgstr ""

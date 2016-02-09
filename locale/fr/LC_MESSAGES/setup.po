@@ -1,0 +1,451 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pyload\n"
+"Report-Msgid-Bugs-To: 'bugs@pyload.org'\n"
+"POT-Creation-Date: 2014-07-13 20:53+0200\n"
+"PO-Revision-Date: 2015-01-18 18:30-0500\n"
+"Last-Translator: pyloadTeam <team@pyload.org>\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pyload\n"
+"X-Crowdin-File: /pyLoad/setup.pot\n"
+
+#: module/setup.py:33
+msgid "y"
+msgstr "o"
+
+#: module/setup.py:35
+msgid "n"
+msgstr "n"
+
+#: module/setup.py:53
+msgid "Welcome to the pyLoad Configuration Assistant."
+msgstr "Bienvenue dans l'assistant de configuration de pyLoad."
+
+#: module/setup.py:54
+msgid "It will check your system and make a basic setup in order to run pyLoad."
+msgstr "Votre système va être vérifié et subir un réglage de base afin de lancer pyLoad."
+
+#: module/setup.py:56
+msgid "The value in brackets [] always is the default value,"
+msgstr "La valeur entre crochets [] est toujours la valeur par défaut,"
+
+#: module/setup.py:57
+msgid "in case you don't want to change it or you are unsure what to choose, just hit enter."
+msgstr "dans le cas où vous ne voulez pas la changer ou vous ne savez pas quoi choisir, appuyez sur entrée."
+
+#: module/setup.py:59
+msgid "Don't forget: You can always rerun this assistant with --setup or -s parameter, when you start pyLoadCore."
+msgstr "N'oubliez pas que vous pouvez toujours relancer cet assistant avec les paramètres --setup ou -s lorsque vous exécutez pyLoadCore."
+
+#: module/setup.py:60
+msgid "If you have any problems with this assistant hit STRG-C,"
+msgstr "Si vous rencontrez des difficultés avec cet assistant, tapez STRG-C,"
+
+#: module/setup.py:61
+msgid "to abort and don't let him start with pyLoadCore automatically anymore."
+msgstr "pour annuler et ne plus le laisser démarrer automatiquement avec pyLoadCore."
+
+#: module/setup.py:63
+msgid "When you are ready for system check, hit enter."
+msgstr "Lorsque vous êtes prêt pour la vérification du système, appuyez sur entrée."
+
+#: module/setup.py:70
+msgid "You need pycurl, sqlite and python 2.5, 2.6 or 2.7 to run pyLoad."
+msgstr "Vous avez besoin de pycurl, sqlite et python 2.5, 2.6 ou 2.7 pour exécuter pyLoad."
+
+#: module/setup.py:71
+msgid "Please correct this and re-run pyLoad."
+msgstr "Merci d'effectuer les corrections nécessaires et de relancer pyLoad."
+
+#: module/setup.py:72
+msgid "Setup will now close."
+msgstr "L'installation va maintenant être quitté."
+
+#: module/setup.py:76
+msgid "System check finished, hit enter to see your status report."
+msgstr "Vérification du système terminée, appuyer sur entrée pour voir votre rapport de status."
+
+#: module/setup.py:78
+msgid "## Status ##"
+msgstr "## Statut ##"
+
+#: module/setup.py:83
+msgid "container decrypting"
+msgstr "décryptage des conteneurs"
+
+#: module/setup.py:85
+msgid "ssl connection"
+msgstr "connexion ssl"
+
+#: module/setup.py:87
+msgid "automatic captcha decryption"
+msgstr "décryptage automatique des catchas"
+
+#: module/setup.py:89
+msgid "Webinterface"
+msgstr "Interface web"
+
+#: module/setup.py:91
+msgid "extended Click'N'Load"
+msgstr "extension Click'N'Load"
+
+#: module/setup.py:98
+msgid "Features available:"
+msgstr "Fonctions disponibles :"
+
+#: module/setup.py:102
+msgid "Featues missing: "
+msgstr "Fonctions indisponibles : "
+
+#: module/setup.py:106
+msgid "no py-crypto available"
+msgstr "Pas de py-crypto disponible"
+
+#: module/setup.py:107
+msgid "You need this if you want to decrypt container files."
+msgstr "Vous en avez besoin si vous souhaitez décrypter les fichiers conteneurs."
+
+#: module/setup.py:111
+msgid "no SSL available"
+msgstr "Pas de SSL disponible"
+
+#: module/setup.py:112
+msgid "This is needed if you want to establish a secure connection to core or webinterface."
+msgstr "Vous en avez besoin si vous souhaitez établir une connexion sécurisé avec le logiciel principal ou l'interface web."
+
+#: module/setup.py:113
+msgid "If you only want to access locally to pyLoad ssl is not usefull."
+msgstr "Si vous souhaitez accéder à pyLoad uniquement en local, la connexion ssl n'est pas utile."
+
+#: module/setup.py:117
+msgid "no Captcha Recognition available"
+msgstr "Pas de reconnaissance des catchas  disponible"
+
+#: module/setup.py:118
+msgid "Only needed for some hosters and as freeuser."
+msgstr "Ceci est nécessaire uniquement pour certains hebergeurs avec un compte utilisateur gratuit."
+
+#: module/setup.py:122
+msgid "no JavaScript engine found"
+msgstr "Le moteur JavaScript n'a pas été trouvé"
+
+#: module/setup.py:123
+msgid "You will need this for some Click'N'Load links. Install Spidermonkey, ossp-js, pyv8 or rhino"
+msgstr "Vous en aurez besoin pour certains liens Click'N'Load. Installez SpiderMonkey, ossp-js, pyv8 ou Rhino"
+
+#: module/setup.py:125
+msgid "You can abort the setup now and fix some dependicies if you want."
+msgstr "Si vous le souhaitez, vous pouvez maintenant quitter l'installation pour corriger certaines dépendances."
+
+#: module/setup.py:127
+msgid "Continue with setup?"
+msgstr "Poursuivre l'installation ?"
+
+#: module/setup.py:133
+#, python-format
+msgid "Do you want to change the config path? Current is %s"
+msgstr "Vous voulez changer le chemin de la configuration ? Le chemin actuel est %s"
+
+#: module/setup.py:135
+msgid "If you use pyLoad on a server or the home partition lives on an iternal flash it may be a good idea to change it."
+msgstr "Si vous utilisez pyLoad sur un serveur ou si la partition home se trouve sur un disque flash il est conseillé de le modifier."
+
+#: module/setup.py:136
+msgid "Change config path?"
+msgstr "Changer le chemin de la configuration?"
+
+#: module/setup.py:142
+msgid "Do you want to configure login data and basic settings?"
+msgstr "Vous voulez configurer les données de connexion et les paramètres de base ?"
+
+#: module/setup.py:143
+msgid "This is recommend for first run."
+msgstr "Ceci est recommandé pour la première exécution."
+
+#: module/setup.py:144
+msgid "Make basic setup?"
+msgstr "Faire le réglage de base ?"
+
+#: module/setup.py:151
+msgid "Do you want to configure ssl?"
+msgstr "Vous voulez configurer ssl?"
+
+#: module/setup.py:152
+msgid "Configure ssl?"
+msgstr "Configurer ssl?"
+
+#: module/setup.py:158
+msgid "Do you want to configure webinterface?"
+msgstr "Vous voulez configurer l'interface Web?"
+
+#: module/setup.py:159
+msgid "Configure webinterface?"
+msgstr "Configurer l'interface Web?"
+
+#: module/setup.py:164
+msgid "Setup finished successfully."
+msgstr "Installation terminée avec succès."
+
+#: module/setup.py:165
+msgid "Hit enter to exit and restart pyLoad"
+msgstr "Appuyez sur entrée pour quitter et redémarrer pyLoad"
+
+#: module/setup.py:172
+msgid "## System Check ##"
+msgstr "## Vérification du Système ##"
+
+#: module/setup.py:175
+msgid "Your python version is to new, Please use Python 2.6/2.7"
+msgstr "Votre version de python est trop récente, Merci d'utiliser Python 2.6/2.7"
+
+#: module/setup.py:178
+msgid "Your python version is to old, Please use at least Python 2.5"
+msgstr "Votre version de python est trop ancienne, merci d'utiliser au moins Python 2.5"
+
+#: module/setup.py:181
+msgid "Python Version: OK"
+msgstr "Version de Python : OK"
+
+#: module/setup.py:224
+#, python-format
+msgid "Your installed jinja2 version %s seems too old."
+msgstr "Vous avez installé jinja2 version %s, elle semble trop ancienne."
+
+#: module/setup.py:225
+msgid "You can safely continue but if the webinterface is not working,"
+msgstr "Vous pouvez continuer en toute sécurité mais si l'interface web ne fonctionne pas,"
+
+#: module/setup.py:226
+msgid "please upgrade or deinstall it, pyLoad includes a sufficient jinja2 libary."
+msgstr "mettez à jour ou désinstallez la, pyLoad inclus une librairie jinja2 suffisante."
+
+#: module/setup.py:243
+msgid "JS engine"
+msgstr "moteur JS"
+
+#: module/setup.py:250
+msgid "## Basic Setup ##"
+msgstr "## Configuration de base ##"
+
+#: module/setup.py:253
+msgid "The following logindata is valid for CLI and webinterface."
+msgstr "L'identifiant suivant est valide pour le CLI et l'interface web."
+
+#: module/setup.py:259 module/setup.py:357 module/setup.py:373
+msgid "Username"
+msgstr "Nom utilisateur"
+
+#: module/setup.py:265
+msgid "External clients (GUI, CLI or other) need remote access to work over the network."
+msgstr "Les clients externes (GUI, CLI ou autre) nécessitent un accès distant pour fonctionner sur le réseau."
+
+#: module/setup.py:266
+msgid "However, if you only want to use the webinterface you may disable it to save ram."
+msgstr "Cependant, si vous souhaitez uniquement utiliser l'interface web vous pouvez le désactiver pour économiser la RAM."
+
+#: module/setup.py:267
+msgid "Enable remote access"
+msgstr "Activer l'accès distant"
+
+#: module/setup.py:271
+msgid "Language"
+msgstr "Langue"
+
+#: module/setup.py:273
+msgid "Downloadfolder"
+msgstr "Dossier de téléchargement"
+
+#: module/setup.py:274
+msgid "Max parallel downloads"
+msgstr "Téléchargements parallèles max"
+
+#: module/setup.py:278
+msgid "Use Reconnect?"
+msgstr "Utiliser la reconnexion ?"
+
+#: module/setup.py:281
+msgid "Reconnect script location"
+msgstr "Emplacement du script de reconnexion"
+
+#: module/setup.py:286
+msgid "## Webinterface Setup ##"
+msgstr "## Configuration de l'interface Web ##"
+
+#: module/setup.py:289
+msgid "Activate webinterface?"
+msgstr "Activer l'interface Web?"
+
+#: module/setup.py:291
+msgid "Listen address, if you use 127.0.0.1 or localhost, the webinterface will only accessible locally."
+msgstr "Adresse d'écoute, si vous utilisez 127.0.0.1 ou localhost, l'interface Web sera accessible uniquement localement."
+
+#: module/setup.py:292
+msgid "Address"
+msgstr "Adresse"
+
+#: module/setup.py:293
+msgid "Port"
+msgstr "Port"
+
+#: module/setup.py:295
+msgid "pyLoad offers several server backends, now following a short explanation."
+msgstr "pyLoad offre plusieurs serveur d'arrière plan, suivez maintenant une brève explication."
+
+#: module/setup.py:296
+msgid "Default server; best choice if you plan to use pyLoad just for you."
+msgstr "Serveur par défaut, meilleur choix si vous prévoyez d'utiliser pyLoad seulement pour vous."
+
+#: module/setup.py:297
+msgid "Support SSL connection and can serve simultaneously more client flawlessly."
+msgstr "Connection SSL supportée et peut servir simultanément plus efficacement le client."
+
+#: module/setup.py:299
+msgid "Can be used by apache, lighttpd, etc.; needs to be properly configured before."
+msgstr "Peut être utilisé par apache, lighttpd, etc... , doit être correctement configuré au préalable."
+
+#: module/setup.py:301
+msgid "Very fast alternative to builtin; requires libev and bjoern packages."
+msgstr "Alternative très rapide à intégrer, requiert les paquets libev et bjoern."
+
+#: module/setup.py:305
+msgid "Attention: In some rare cases the builtin server is not working, if you notice problems with the webinterface"
+msgstr "Attention : dans certain cas le serveur intégré ne marche pas, si vous avez des problèmes avec l'interface web"
+
+#: module/setup.py:306
+msgid "come back here and change the builtin server to the threaded one here."
+msgstr "revenez ici et changez le serveur de “intégré” à “threaded”."
+
+#: module/setup.py:315
+msgid "Server"
+msgstr "Serveur"
+
+#: module/setup.py:320
+msgid "## SSL Setup ##"
+msgstr "## Configuration de SSL ##"
+
+#: module/setup.py:322
+msgid "Execute these commands from pyLoad config folder to make ssl certificates:"
+msgstr "Exécutez ces commande depuis le répertoire de configuration de pyLoad pour générer les certificats SSL :"
+
+#: module/setup.py:328
+msgid "If you're done and everything went fine, you can activate ssl now."
+msgstr "Si vous avez terminé et que tout s'est bien passé, vous pouvez activer le ssl maintenant."
+
+#: module/setup.py:330
+msgid "Activate SSL?"
+msgstr "Activer le SSL ?"
+
+#: module/setup.py:347
+msgid "Select action"
+msgstr "Sélectionnez une action"
+
+#: module/setup.py:348
+msgid "1 - Create/Edit user"
+msgstr "1 - Créer/modifier l'utilisateur"
+
+#: module/setup.py:349
+msgid "2 - List users"
+msgstr "2 - Lister les utilisateurs"
+
+#: module/setup.py:350
+msgid "3 - Remove user"
+msgstr "3 - Supprimer un utilisateur"
+
+#: module/setup.py:351
+msgid "4 - Quit"
+msgstr "4 - Quitter"
+
+#: module/setup.py:363
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: module/setup.py:391
+msgid "Setting new configpath, current configuration will not be transfered!"
+msgstr "Définition d'un nouveau dossier de configuration, la configuration actuelle ne sera pas transférée !"
+
+#: module/setup.py:392
+msgid "Configpath"
+msgstr "Dossier de configuration"
+
+#: module/setup.py:400
+msgid "Configpath changed, setup will now close, please restart to go on."
+msgstr "Dossier de configuration modifié, l'assistant va se fermer, veuillez le relancer ensuite."
+
+#: module/setup.py:401
+msgid "Press Enter to exit."
+msgstr "Appuyez sur entrée pour quitter."
+
+#: module/setup.py:405
+#, python-format
+msgid "Setting config path failed: %s"
+msgstr "La définition du dossier de configuration a échoué : %s"
+
+#: module/setup.py:411
+#, python-format
+msgid "%s: OK"
+msgstr "%s : OK"
+
+#: module/setup.py:413
+#, python-format
+msgid "%s: missing"
+msgstr "%s : absent"
+
+#: module/setup.py:456
+msgid "Warning: Consider a password of 10 or more symbols if you expect to access from outside your local network (ex. internet)."
+msgstr "Alerte : Adopter un mot de passe de 10 caractères ou plus si vous pensez accéder depuis un réseau extérieur (ex: Internet)."
+
+#: module/setup.py:457
+msgid "Password: "
+msgstr "Mot de passe : "
+
+#: module/setup.py:461
+#, python-format
+msgid "Password too short! Use at least %s symbols."
+msgstr "Mot de passe trop court ! Utiliser au moins %s caractères."
+
+#: module/setup.py:464
+msgid "Password must be alphanumeric."
+msgstr "Le mot de passe doit être de type alphanumérique."
+
+#: module/setup.py:467
+msgid "Password (again): "
+msgstr "Mot de passe (encore) : "
+
+#: module/setup.py:473
+msgid "Passwords did not match."
+msgstr "Les mots de passe ne correspondent pas."
+
+#: module/setup.py:489
+msgid "yes"
+msgstr "oui"
+
+#: module/setup.py:489
+msgid "true"
+msgstr "vrai"
+
+#: module/setup.py:489
+msgid "t"
+msgstr "v"
+
+#: module/setup.py:492
+msgid "no"
+msgstr "non"
+
+#: module/setup.py:492
+msgid "false"
+msgstr "faux"
+
+#: module/setup.py:492
+msgid "f"
+msgstr "f"
+
+#: module/setup.py:495 module/setup.py:505
+msgid "Invalid Input"
+msgstr "Entrée non valide"
+

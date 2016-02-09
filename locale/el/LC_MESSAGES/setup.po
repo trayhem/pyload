@@ -1,0 +1,451 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pyload\n"
+"Report-Msgid-Bugs-To: 'bugs@pyload.org'\n"
+"POT-Creation-Date: 2014-07-13 20:53+0200\n"
+"PO-Revision-Date: 2015-01-18 18:30-0500\n"
+"Last-Translator: pyloadTeam <team@pyload.org>\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pyload\n"
+"X-Crowdin-File: /pyLoad/setup.pot\n"
+
+#: module/setup.py:33
+msgid "y"
+msgstr "y"
+
+#: module/setup.py:35
+msgid "n"
+msgstr "n"
+
+#: module/setup.py:53
+msgid "Welcome to the pyLoad Configuration Assistant."
+msgstr "Καλώς ήλθατε στο Βοηθό Ρύθμισης του pyLoad."
+
+#: module/setup.py:54
+msgid "It will check your system and make a basic setup in order to run pyLoad."
+msgstr "Θα γίνει έλεγχος και βασική ρύθμιση του συστήματός σας, ώστε να εκτελεστεί το pyLoad."
+
+#: module/setup.py:56
+msgid "The value in brackets [] always is the default value,"
+msgstr "Η τιμή στις αγκύλες [] είναι πάντα η προεπιλεγμένη τιμή,"
+
+#: module/setup.py:57
+msgid "in case you don't want to change it or you are unsure what to choose, just hit enter."
+msgstr "σε περίπτωση που δεν επιθυμείτε αλλαγή ή αμφιβάλλετε για την επιλογή σας, απλά πατήστε enter. "
+
+#: module/setup.py:59
+msgid "Don't forget: You can always rerun this assistant with --setup or -s parameter, when you start pyLoadCore."
+msgstr "Μην ξεχνάτε: Μπορείτε πάντα να εκτελέσετε ξανά τον Βοηθό, εισάγοντας τη παράμετρο --setup ή -s, κατά την εκτέλεση του pyLoadCore."
+
+#: module/setup.py:60
+msgid "If you have any problems with this assistant hit STRG-C,"
+msgstr "Αν αντιμετωπίσετε προβλήματα με το Βοηθό, πατήστε CTRL-C,"
+
+#: module/setup.py:61
+msgid "to abort and don't let him start with pyLoadCore automatically anymore."
+msgstr "για να εγκαταλείψετε και να αποτρέψετε την αυτόματη εκτέλεσή του."
+
+#: module/setup.py:63
+msgid "When you are ready for system check, hit enter."
+msgstr "Όταν είστε έτοιμος για τον έλεγχο του συστήματος, πατήστε enter."
+
+#: module/setup.py:70
+msgid "You need pycurl, sqlite and python 2.5, 2.6 or 2.7 to run pyLoad."
+msgstr "Απαιτούνται τα pycurl, sqlite και python 2.5, 2.6 ή 2.7 για να εκτελέσετε το pyLoad."
+
+#: module/setup.py:71
+msgid "Please correct this and re-run pyLoad."
+msgstr "Παρακαλώ κάνετε τις διορθώσεις και εκτελέστε ξανά το pyLoad."
+
+#: module/setup.py:72
+msgid "Setup will now close."
+msgstr "Η εγκατάσταση θα τερματιστεί."
+
+#: module/setup.py:76
+msgid "System check finished, hit enter to see your status report."
+msgstr "Ο έλεγχος του συστήματος ολοκληρώθηκε, πατήστε το enter για να δείτε τα αποτελέσματα."
+
+#: module/setup.py:78
+msgid "## Status ##"
+msgstr "## Κατάσταση ##"
+
+#: module/setup.py:83
+msgid "container decrypting"
+msgstr "αποκρυπτογράφηση περιεχόμενου"
+
+#: module/setup.py:85
+msgid "ssl connection"
+msgstr "σύνδεση ssl"
+
+#: module/setup.py:87
+msgid "automatic captcha decryption"
+msgstr "αυτόματη αποκρυπτογράφηση captcha"
+
+#: module/setup.py:89
+msgid "Webinterface"
+msgstr "Διεπαφή ιστού"
+
+#: module/setup.py:91
+msgid "extended Click'N'Load"
+msgstr "extended Click'N'Load"
+
+#: module/setup.py:98
+msgid "Features available:"
+msgstr "Χαρακτηριστικά διαθέσιμα:"
+
+#: module/setup.py:102
+msgid "Featues missing: "
+msgstr "Χαρακτηριστικά που λείπουν:"
+
+#: module/setup.py:106
+msgid "no py-crypto available"
+msgstr "δεν είναι διαθέσιμο το py-crypto"
+
+#: module/setup.py:107
+msgid "You need this if you want to decrypt container files."
+msgstr "Αυτό απαιτείται αν θέλετε να αποκρυπτογραφήσετε αρχεία container."
+
+#: module/setup.py:111
+msgid "no SSL available"
+msgstr "δεν είναι διαθέσιμο το SSL"
+
+#: module/setup.py:112
+msgid "This is needed if you want to establish a secure connection to core or webinterface."
+msgstr "Αυτό απαιτείται για την πραγματοποίηση ασφαλής σύνδεσης με τον πυρήνα ή το Webιnterface."
+
+#: module/setup.py:113
+msgid "If you only want to access locally to pyLoad ssl is not usefull."
+msgstr "Αν θέλετε να έχετε πρόσβαση μόνο τοπικά στο pyLoad, το ssl δεν είναι χρήσιμο."
+
+#: module/setup.py:117
+msgid "no Captcha Recognition available"
+msgstr "δεν υπάρχει διαθέσιμη αναγνώριση Captcha"
+
+#: module/setup.py:118
+msgid "Only needed for some hosters and as freeuser."
+msgstr "Χρειάζεται μόνο από μερικούς διακομιστές διαμοιρασμού αρχείων και σαν δωρεάν χρήστης."
+
+#: module/setup.py:122
+msgid "no JavaScript engine found"
+msgstr "δεν βρέθηκε μηχανή JavaScript"
+
+#: module/setup.py:123
+msgid "You will need this for some Click'N'Load links. Install Spidermonkey, ossp-js, pyv8 or rhino"
+msgstr "Θα το χρειαστείτε για μερικούς συνδέσμους Click'N'Load. Εγκαταστήστε Spidermonkey, ossp-js, pyv8 ή rhino"
+
+#: module/setup.py:125
+msgid "You can abort the setup now and fix some dependicies if you want."
+msgstr "Αν θέλετε μπορείτε να ακυρώσετε την εγκατάσταση τώρα και να διορθώσετε κάποιες εξαρτήσεις."
+
+#: module/setup.py:127
+msgid "Continue with setup?"
+msgstr "Συνέχιση με την εγκατάσταση;"
+
+#: module/setup.py:133
+#, python-format
+msgid "Do you want to change the config path? Current is %s"
+msgstr "Θέλετε να αλλάξετε τη διαδρομή του αρχείου αποθήκευσης των ρυθμίσεων; Η τρέχουσα είναι %s"
+
+#: module/setup.py:135
+msgid "If you use pyLoad on a server or the home partition lives on an iternal flash it may be a good idea to change it."
+msgstr "Αν χρησιμοποιήτε το pyLoad σε εξυπηρετητή ή το διαμέρισμα home βρίσκεται σε εσωτερική μνήμη flash, θα ήταν καλή ιδέα να το αλλάξετε."
+
+#: module/setup.py:136
+msgid "Change config path?"
+msgstr "Αλλαγή διαδρομής αποθήκευσης αρχείου ρυθμίσεων;"
+
+#: module/setup.py:142
+msgid "Do you want to configure login data and basic settings?"
+msgstr "Θέλετε να ορίσετε στοιχεία σύνδεσης και να κάνετε τις βασικές ρυθμίσεις;"
+
+#: module/setup.py:143
+msgid "This is recommend for first run."
+msgstr "Αυτό συνιστάται για την πρώτη εκτέλεση."
+
+#: module/setup.py:144
+msgid "Make basic setup?"
+msgstr "Δημιουργία βασικής ρύθμισης;"
+
+#: module/setup.py:151
+msgid "Do you want to configure ssl?"
+msgstr "Θέλετε να ρυθμίσετε το SSL;"
+
+#: module/setup.py:152
+msgid "Configure ssl?"
+msgstr "Ρύθμιση SSL;"
+
+#: module/setup.py:158
+msgid "Do you want to configure webinterface?"
+msgstr "Θέλετε να ρυθμίσετε το περιβάλλον Web;"
+
+#: module/setup.py:159
+msgid "Configure webinterface?"
+msgstr "Ρύθμιση του Web Interface;"
+
+#: module/setup.py:164
+msgid "Setup finished successfully."
+msgstr "Η εγκατάσταση ολοκληρώθηκε με επιτυχία."
+
+#: module/setup.py:165
+msgid "Hit enter to exit and restart pyLoad"
+msgstr "Πατήστε Enter για να εξέλθετε και να επανεκκινήσετε το pyLoad"
+
+#: module/setup.py:172
+msgid "## System Check ##"
+msgstr "## Έλεγχος Συστήματος ##"
+
+#: module/setup.py:175
+msgid "Your python version is to new, Please use Python 2.6/2.7"
+msgstr "Η έκδοση της python που χρησιμοποιείτε είναι πολύ νέα, παρακαλώ χρησιμοποιήστε Python 2.6/2.7"
+
+#: module/setup.py:178
+msgid "Your python version is to old, Please use at least Python 2.5"
+msgstr "Η έκδοση της python που χρησιμοποιείτε είναι πολύ παλιά, παρακαλώ χρησιμοποιήστε τουλάχιστον Python 2.5"
+
+#: module/setup.py:181
+msgid "Python Version: OK"
+msgstr "Έκδοση Python: ΟΚ"
+
+#: module/setup.py:224
+#, python-format
+msgid "Your installed jinja2 version %s seems too old."
+msgstr "Η έκδοση %s του jinja2 που έχετε εγκατεστημένη φαίνεται πολύ παλιά."
+
+#: module/setup.py:225
+msgid "You can safely continue but if the webinterface is not working,"
+msgstr "Μπορείτε να συνεχίστε, αλλά αν δεν δουλεύει το Web Interface,"
+
+#: module/setup.py:226
+msgid "please upgrade or deinstall it, pyLoad includes a sufficient jinja2 libary."
+msgstr "παρακαλώ αναβαθμίστε το ή απεγκαταστήστε το, το pyLoad συμπεριλαμβάνει μια επαρκή βιβλιοθήκη jinja2."
+
+#: module/setup.py:243
+msgid "JS engine"
+msgstr "Μηχανή JS"
+
+#: module/setup.py:250
+msgid "## Basic Setup ##"
+msgstr "## Βασική Εγκατάσταση ##"
+
+#: module/setup.py:253
+msgid "The following logindata is valid for CLI and webinterface."
+msgstr "Τα ακόλουθα στοιχεία σύνδεσης είναι έγκυρα για τη Γραμμή Εντολών και το περιβάλλον Web."
+
+#: module/setup.py:259 module/setup.py:357 module/setup.py:373
+msgid "Username"
+msgstr "Όνομα Χρήστη"
+
+#: module/setup.py:265
+msgid "External clients (GUI, CLI or other) need remote access to work over the network."
+msgstr "Οι εξωτερικοί πελάτες (για το GUI, τη Γραμμή εντολών ή άλλο) χρειάζονται απομακρυσμένη πρόσβαση για να λειτουργήσουν μέσω δικτύου."
+
+#: module/setup.py:266
+msgid "However, if you only want to use the webinterface you may disable it to save ram."
+msgstr "Όμως, αν θέλετε να να χρησιμοποιήσετε μονο το Web Interface, μπορείτε να το απενεργοποιήσετε για να γλυτώσετε RAM."
+
+#: module/setup.py:267
+msgid "Enable remote access"
+msgstr "Ενεργοποίηση απομακρυσμένης πρόσβασης"
+
+#: module/setup.py:271
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: module/setup.py:273
+msgid "Downloadfolder"
+msgstr "Φάκελος μεταφορτώσεων"
+
+#: module/setup.py:274
+msgid "Max parallel downloads"
+msgstr "Μέγιστος αριθμός ταυτόχρονων λήψεων"
+
+#: module/setup.py:278
+msgid "Use Reconnect?"
+msgstr "Χρήση Επανασύνδεσης;"
+
+#: module/setup.py:281
+msgid "Reconnect script location"
+msgstr "Τοποθεσία αρχείου εντολών επανασύνδεσης"
+
+#: module/setup.py:286
+msgid "## Webinterface Setup ##"
+msgstr "## Εγκατάσταση Περιβάλλοντος Web ##"
+
+#: module/setup.py:289
+msgid "Activate webinterface?"
+msgstr "Ενεργοποίηση περιβάλλοντος Web;"
+
+#: module/setup.py:291
+msgid "Listen address, if you use 127.0.0.1 or localhost, the webinterface will only accessible locally."
+msgstr "Διεύθυνση που θα \"ακούει\". Αν χρησιμοποιήσετε 127.0.0.1 ή localhost, το περιβάλλον Web θα είναι προσβάσιμο μόνο τοπικά."
+
+#: module/setup.py:292
+msgid "Address"
+msgstr "Διεύθυνση"
+
+#: module/setup.py:293
+msgid "Port"
+msgstr "Θύρα"
+
+#: module/setup.py:295
+msgid "pyLoad offers several server backends, now following a short explanation."
+msgstr "Το pyLoad προσφέρει αρκετoύς διακομιστές υποστήριξης. Ακολουθεί σύντομη επεξήγηση."
+
+#: module/setup.py:296
+msgid "Default server; best choice if you plan to use pyLoad just for you."
+msgstr "Προεπιλεγμένος διακομιστής· η καλύτερη επιλογή εάν σκοπεύετε να χρησιμοποιήσετε το pyLoad μόνο για εσάς."
+
+#: module/setup.py:297
+msgid "Support SSL connection and can serve simultaneously more client flawlessly."
+msgstr "Υποστηρίζει σύνδεση SSL και μπορεί να εξυπηρετήσει καλύτερα πολλούς ταυτόχρονους πελάτες."
+
+#: module/setup.py:299
+msgid "Can be used by apache, lighttpd, etc.; needs to be properly configured before."
+msgstr "Μπορεί να χρησιμοποιηθεί από τον apache, τον lighttpd, κλπ· πρέπει να ρυθμιστεί σωστά από πριν."
+
+#: module/setup.py:301
+msgid "Very fast alternative to builtin; requires libev and bjoern packages."
+msgstr "Πολύ γρήγορη εναλλακτική λύση του ενσωματωμένου διακομιστή· απαιτεί τα πακέτα libev και bjoern."
+
+#: module/setup.py:305
+msgid "Attention: In some rare cases the builtin server is not working, if you notice problems with the webinterface"
+msgstr "Προσοχή: Σε σπάνιες περιπτώσεις ο προεπιλεγμένος διακομιστής δεν δουλεύει. Αν παρατηρήσετε προβλήματα με το Web Interface,"
+
+#: module/setup.py:306
+msgid "come back here and change the builtin server to the threaded one here."
+msgstr "επιστρέψτε εδώ και αλλάξτε τον με τον threaded."
+
+#: module/setup.py:315
+msgid "Server"
+msgstr "Διακομιστής"
+
+#: module/setup.py:320
+msgid "## SSL Setup ##"
+msgstr "## Εγκατάσταση SSL ##"
+
+#: module/setup.py:322
+msgid "Execute these commands from pyLoad config folder to make ssl certificates:"
+msgstr "Εκτελέστε αυτές τις εντολές από τον φάκελο παραμετροποίησης του pyLoad για να δημιουργήσετε πιστοποιητικά SSL:"
+
+#: module/setup.py:328
+msgid "If you're done and everything went fine, you can activate ssl now."
+msgstr "Αν τελειώσατε και όλα πήγαν καλώς, τώρα μπορείτε να ενεργοποιήσετε το SSL."
+
+#: module/setup.py:330
+msgid "Activate SSL?"
+msgstr "Ενεργοποίηση SSL;"
+
+#: module/setup.py:347
+msgid "Select action"
+msgstr "Επιλέξτε ενέργεια"
+
+#: module/setup.py:348
+msgid "1 - Create/Edit user"
+msgstr "1 - Δημιουργία/Επεξεργασία χρήστη"
+
+#: module/setup.py:349
+msgid "2 - List users"
+msgstr "2 - Λίστα χρηστών"
+
+#: module/setup.py:350
+msgid "3 - Remove user"
+msgstr "3 - Διαγραφή χρήστη"
+
+#: module/setup.py:351
+msgid "4 - Quit"
+msgstr "4 - Τερματισμός"
+
+#: module/setup.py:363
+msgid "Users"
+msgstr "Χρήστες"
+
+#: module/setup.py:391
+msgid "Setting new configpath, current configuration will not be transfered!"
+msgstr "Ορισμός καινούριας διαδρομής ρυθμίσεων, δεν θα μεταφερθούν οι τρέχουσες ρυθμίσεις!"
+
+#: module/setup.py:392
+msgid "Configpath"
+msgstr "Διαδρομή αρχείου ρυθμίσεων"
+
+#: module/setup.py:400
+msgid "Configpath changed, setup will now close, please restart to go on."
+msgstr "Η διαδρομή ρυθμίσεων ορίστηκε, η εγκατάσταση τώρα θα κλείσει, παρακαλώ κάντε επανεκκίνηση για να συνεχίστε."
+
+#: module/setup.py:401
+msgid "Press Enter to exit."
+msgstr "Πατήστε Enter για έξοδο."
+
+#: module/setup.py:405
+#, python-format
+msgid "Setting config path failed: %s"
+msgstr "Ο ορισμός της διαδρομής ρυθμίσεων απέτυχε: %s"
+
+#: module/setup.py:411
+#, python-format
+msgid "%s: OK"
+msgstr "%s: OK"
+
+#: module/setup.py:413
+#, python-format
+msgid "%s: missing"
+msgstr "%s: λείπει"
+
+#: module/setup.py:456
+msgid "Warning: Consider a password of 10 or more symbols if you expect to access from outside your local network (ex. internet)."
+msgstr "Προσοχή: Προτείνεται η χρήση κωδικού πρόσβασης αποτελούμενου από 10 ή περισσότερους χαρακτήρες  εάν σκοπεύετε να έχετε πρόσβαση από έξω από το τοπικό σας δίκτυο (π.χ. από το internet)."
+
+#: module/setup.py:457
+msgid "Password: "
+msgstr "Κωδικός χρήστη:"
+
+#: module/setup.py:461
+#, python-format
+msgid "Password too short! Use at least %s symbols."
+msgstr "Ο κωδικός είναι πολύ μικρός! Χρησιμοποιήστε τουλάχιστον %s χαρακτήρες."
+
+#: module/setup.py:464
+msgid "Password must be alphanumeric."
+msgstr "Ο κωδικός πρόσβασης πρέπει να αποτελείται από αλφαριθμητικούς χαρακτήρες."
+
+#: module/setup.py:467
+msgid "Password (again): "
+msgstr "Κωδικός (ξανά):"
+
+#: module/setup.py:473
+msgid "Passwords did not match."
+msgstr "Οι κωδικοί δεν ταιριάζουν"
+
+#: module/setup.py:489
+msgid "yes"
+msgstr "ναι"
+
+#: module/setup.py:489
+msgid "true"
+msgstr "σωστό"
+
+#: module/setup.py:489
+msgid "t"
+msgstr "t"
+
+#: module/setup.py:492
+msgid "no"
+msgstr "όχι"
+
+#: module/setup.py:492
+msgid "false"
+msgstr "λάθος"
+
+#: module/setup.py:492
+msgid "f"
+msgstr "f"
+
+#: module/setup.py:495 module/setup.py:505
+msgid "Invalid Input"
+msgstr "Λανθασμένη εισαγωγή"
+

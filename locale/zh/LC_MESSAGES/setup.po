@@ -1,0 +1,448 @@
+msgid ""
+msgstr "Project-Id-Version: pyload\n"
+"Report-Msgid-Bugs-To: 'bugs@pyload.org'\n"
+"POT-Creation-Date: 2014-07-13 20:53+0200\n"
+"PO-Revision-Date: 2014-07-13 15:08-0400\n"
+"Last-Translator: pyloadTeam <team@pyload.org>\n"
+"Language-Team: Chinese Traditional\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.net\n"
+
+#: module/setup.py:33
+msgid "y"
+msgstr "是"
+
+#: module/setup.py:35
+msgid "n"
+msgstr "否"
+
+#: module/setup.py:53
+msgid "Welcome to the pyLoad Configuration Assistant."
+msgstr ""
+
+#: module/setup.py:54
+msgid "It will check your system and make a basic setup in order to run pyLoad."
+msgstr "它將會檢查您的系統並完成基本設定"
+
+#: module/setup.py:56
+msgid "The value in brackets [] always is the default value,"
+msgstr "中括弧內的值為預設值"
+
+#: module/setup.py:57
+msgid "in case you don't want to change it or you are unsure what to choose, just hit enter."
+msgstr "如果您不知道該如何設定或是不需改變，請直接按下Enter"
+
+#: module/setup.py:59
+msgid "Don't forget: You can always rerun this assistant with --setup or -s parameter, when you start pyLoadCore."
+msgstr ""
+
+#: module/setup.py:60
+msgid "If you have any problems with this assistant hit STRG-C,"
+msgstr ""
+
+#: module/setup.py:61
+msgid "to abort and don't let him start with pyLoadCore automatically anymore."
+msgstr "不再讓設定助手與pyLoad同時啟動"
+
+#: module/setup.py:63
+msgid "When you are ready for system check, hit enter."
+msgstr "按下確定後開始檢查系統狀態"
+
+#: module/setup.py:70
+msgid "You need pycurl, sqlite and python 2.5, 2.6 or 2.7 to run pyLoad."
+msgstr "你需要pycurl，sqlite以及python 2.5，2.6或是2.7来运行pyLoad。"
+
+#: module/setup.py:71
+msgid "Please correct this and re-run pyLoad."
+msgstr "请修改后重新运行pyLoad"
+
+#: module/setup.py:72
+msgid "Setup will now close."
+msgstr "安装向导关闭。"
+
+#: module/setup.py:76
+msgid "System check finished, hit enter to see your status report."
+msgstr "系统检查完毕，恩下回车以查看系统报告。"
+
+#: module/setup.py:78
+msgid "## Status ##"
+msgstr "＃＃进程＃＃"
+
+#: module/setup.py:83
+msgid "container decrypting"
+msgstr ""
+
+#: module/setup.py:85
+msgid "ssl connection"
+msgstr ""
+
+#: module/setup.py:87
+msgid "automatic captcha decryption"
+msgstr ""
+
+#: module/setup.py:89
+msgid "Webinterface"
+msgstr "Web界面"
+
+#: module/setup.py:91
+msgid "extended Click'N'Load"
+msgstr ""
+
+#: module/setup.py:98
+msgid "Features available:"
+msgstr ""
+
+#: module/setup.py:102
+msgid "Featues missing: "
+msgstr ""
+
+#: module/setup.py:106
+msgid "no py-crypto available"
+msgstr ""
+
+#: module/setup.py:107
+msgid "You need this if you want to decrypt container files."
+msgstr ""
+
+#: module/setup.py:111
+msgid "no SSL available"
+msgstr ""
+
+#: module/setup.py:112
+msgid "This is needed if you want to establish a secure connection to core or webinterface."
+msgstr ""
+
+#: module/setup.py:113
+msgid "If you only want to access locally to pyLoad ssl is not usefull."
+msgstr ""
+
+#: module/setup.py:117
+msgid "no Captcha Recognition available"
+msgstr ""
+
+#: module/setup.py:118
+msgid "Only needed for some hosters and as freeuser."
+msgstr ""
+
+#: module/setup.py:122
+msgid "no JavaScript engine found"
+msgstr ""
+
+#: module/setup.py:123
+msgid "You will need this for some Click'N'Load links. Install Spidermonkey, ossp-js, pyv8 or rhino"
+msgstr ""
+
+#: module/setup.py:125
+msgid "You can abort the setup now and fix some dependicies if you want."
+msgstr ""
+
+#: module/setup.py:127
+msgid "Continue with setup?"
+msgstr "是否繼續設定？"
+
+#: module/setup.py:133
+#, python-format
+msgid "Do you want to change the config path? Current is %s"
+msgstr "目前存放設定檔的位置為 %s，是否要修改？"
+
+#: module/setup.py:135
+msgid "If you use pyLoad on a server or the home partition lives on an iternal flash it may be a good idea to change it."
+msgstr ""
+
+#: module/setup.py:136
+msgid "Change config path?"
+msgstr "改變設定擋路徑？"
+
+#: module/setup.py:142
+msgid "Do you want to configure login data and basic settings?"
+msgstr "是否要進行基本設定？"
+
+#: module/setup.py:143
+msgid "This is recommend for first run."
+msgstr "第一次使用pyLoad時建議使用"
+
+#: module/setup.py:144
+msgid "Make basic setup?"
+msgstr "開始基礎設定嗎？"
+
+#: module/setup.py:151
+msgid "Do you want to configure ssl?"
+msgstr "開始設定SSL嗎？"
+
+#: module/setup.py:152
+msgid "Configure ssl?"
+msgstr "設定SSL？"
+
+#: module/setup.py:158
+msgid "Do you want to configure webinterface?"
+msgstr "開始設定網頁介面？"
+
+#: module/setup.py:159
+msgid "Configure webinterface?"
+msgstr "設定網頁介面？"
+
+#: module/setup.py:164
+msgid "Setup finished successfully."
+msgstr "設定完成"
+
+#: module/setup.py:165
+msgid "Hit enter to exit and restart pyLoad"
+msgstr "按下Enter離開設定介面並重新啟動pyLoad"
+
+#: module/setup.py:172
+msgid "## System Check ##"
+msgstr ""
+
+#: module/setup.py:175
+msgid "Your python version is to new, Please use Python 2.6/2.7"
+msgstr ""
+
+#: module/setup.py:178
+msgid "Your python version is to old, Please use at least Python 2.5"
+msgstr ""
+
+#: module/setup.py:181
+msgid "Python Version: OK"
+msgstr ""
+
+#: module/setup.py:224
+#, python-format
+msgid "Your installed jinja2 version %s seems too old."
+msgstr ""
+
+#: module/setup.py:225
+msgid "You can safely continue but if the webinterface is not working,"
+msgstr ""
+
+#: module/setup.py:226
+msgid "please upgrade or deinstall it, pyLoad includes a sufficient jinja2 libary."
+msgstr ""
+
+#: module/setup.py:243
+msgid "JS engine"
+msgstr ""
+
+#: module/setup.py:250
+msgid "## Basic Setup ##"
+msgstr "＃＃基本設定＃＃"
+
+#: module/setup.py:253
+msgid "The following logindata is valid for CLI and webinterface."
+msgstr ""
+
+#: module/setup.py:259 module/setup.py:357 module/setup.py:373
+msgid "Username"
+msgstr "使用者名稱"
+
+#: module/setup.py:265
+msgid "External clients (GUI, CLI or other) need remote access to work over the network."
+msgstr ""
+
+#: module/setup.py:266
+msgid "However, if you only want to use the webinterface you may disable it to save ram."
+msgstr ""
+
+#: module/setup.py:267
+msgid "Enable remote access"
+msgstr ""
+
+#: module/setup.py:271
+msgid "Language"
+msgstr "語言"
+
+#: module/setup.py:273
+msgid "Downloadfolder"
+msgstr ""
+
+#: module/setup.py:274
+msgid "Max parallel downloads"
+msgstr "同時最大下載數量"
+
+#: module/setup.py:278
+msgid "Use Reconnect?"
+msgstr "開啟重試機制？"
+
+#: module/setup.py:281
+msgid "Reconnect script location"
+msgstr "重試腳本路徑"
+
+#: module/setup.py:286
+msgid "## Webinterface Setup ##"
+msgstr "＃＃網頁介面設定＃＃"
+
+#: module/setup.py:289
+msgid "Activate webinterface?"
+msgstr "開啟網頁介面？"
+
+#: module/setup.py:291
+msgid "Listen address, if you use 127.0.0.1 or localhost, the webinterface will only accessible locally."
+msgstr "監聽位址，使用127.0.0.1或localhost，可讓網頁介面只有在本地端可使用"
+
+#: module/setup.py:292
+msgid "Address"
+msgstr "IP位址"
+
+#: module/setup.py:293
+msgid "Port"
+msgstr "埠"
+
+#: module/setup.py:295
+msgid "pyLoad offers several server backends, now following a short explanation."
+msgstr "pyLoad提供了幾種server模式，以下作簡短說明"
+
+#: module/setup.py:296
+msgid "Default server; best choice if you plan to use pyLoad just for you."
+msgstr ""
+
+#: module/setup.py:297
+msgid "Support SSL connection and can serve simultaneously more client flawlessly."
+msgstr ""
+
+#: module/setup.py:299
+msgid "Can be used by apache, lighttpd, etc.; needs to be properly configured before."
+msgstr ""
+
+#: module/setup.py:301
+msgid "Very fast alternative to builtin; requires libev and bjoern packages."
+msgstr ""
+
+#: module/setup.py:305
+msgid "Attention: In some rare cases the builtin server is not working, if you notice problems with the webinterface"
+msgstr "警告：內建(buildin)伺服器在某些情況會無法運作"
+
+#: module/setup.py:306
+msgid "come back here and change the builtin server to the threaded one here."
+msgstr "如果你發現網頁介面有任何問題，請重新執行設定助手並將伺服器模式設定為其餘模式"
+
+#: module/setup.py:315
+msgid "Server"
+msgstr "伺服器"
+
+#: module/setup.py:320
+msgid "## SSL Setup ##"
+msgstr "＃＃SSL設定＃＃"
+
+#: module/setup.py:322
+msgid "Execute these commands from pyLoad config folder to make ssl certificates:"
+msgstr "在pyLoad設定檔目錄中執行下列指令以取得SSL憑證"
+
+#: module/setup.py:328
+msgid "If you're done and everything went fine, you can activate ssl now."
+msgstr "如果一切順利現在就可以開啟SSL"
+
+#: module/setup.py:330
+msgid "Activate SSL?"
+msgstr "啟用SSL？"
+
+#: module/setup.py:347
+msgid "Select action"
+msgstr "選擇動作 "
+
+#: module/setup.py:348
+msgid "1 - Create/Edit user"
+msgstr "1. 建立或編輯使用者"
+
+#: module/setup.py:349
+msgid "2 - List users"
+msgstr "2. 列出所有使用者"
+
+#: module/setup.py:350
+msgid "3 - Remove user"
+msgstr "3. 刪除使用者"
+
+#: module/setup.py:351
+msgid "4 - Quit"
+msgstr "4. 離開"
+
+#: module/setup.py:363
+msgid "Users"
+msgstr "使用者"
+
+#: module/setup.py:391
+msgid "Setting new configpath, current configuration will not be transfered!"
+msgstr ""
+
+#: module/setup.py:392
+msgid "Configpath"
+msgstr ""
+
+#: module/setup.py:400
+msgid "Configpath changed, setup will now close, please restart to go on."
+msgstr ""
+
+#: module/setup.py:401
+msgid "Press Enter to exit."
+msgstr "按下 Enter 離開。"
+
+#: module/setup.py:405
+#, python-format
+msgid "Setting config path failed: %s"
+msgstr "設定檔路徑有誤 %s"
+
+#: module/setup.py:411
+#, python-format
+msgid "%s: OK"
+msgstr ""
+
+#: module/setup.py:413
+#, python-format
+msgid "%s: missing"
+msgstr ""
+
+#: module/setup.py:456
+msgid "Warning: Consider a password of 10 or more symbols if you expect to access from outside your local network (ex. internet)."
+msgstr ""
+
+#: module/setup.py:457
+msgid "Password: "
+msgstr "密碼:"
+
+#: module/setup.py:461
+#, python-format
+msgid "Password too short! Use at least %s symbols."
+msgstr ""
+
+#: module/setup.py:464
+msgid "Password must be alphanumeric."
+msgstr ""
+
+#: module/setup.py:467
+msgid "Password (again): "
+msgstr "再輸入一次密碼："
+
+#: module/setup.py:473
+msgid "Passwords did not match."
+msgstr "密码不符"
+
+#: module/setup.py:489
+msgid "yes"
+msgstr "是"
+
+#: module/setup.py:489
+msgid "true"
+msgstr "是"
+
+#: module/setup.py:489
+msgid "t"
+msgstr ""
+
+#: module/setup.py:492
+msgid "no"
+msgstr "否"
+
+#: module/setup.py:492
+msgid "false"
+msgstr "否"
+
+#: module/setup.py:492
+msgid "f"
+msgstr ""
+
+#: module/setup.py:495 module/setup.py:505
+msgid "Invalid Input"
+msgstr "不合法的輸入"
+
