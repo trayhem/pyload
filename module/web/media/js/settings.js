@@ -53,16 +53,23 @@ SettingsUI = (function () {
             item.set('title', item.get('id').toLowerCase());
         });
         $('pluginsFoundCounter').set('text', $$('#plugin-menu li').length);
-        $('searchPluginContent').addEvent('keydown', function () {
+        $('searchPluginContent').addEvent('keyup', function () {
+            $$('#plugin-menu li').hide();
             var result = $$('#plugin-menu li[title*=' + $('searchPluginContent').get("value").toLowerCase() + ']');
             if (result.length === 0)
             {
-                $$('#plugin-menu li').show();
-                $('pluginsFoundCounter').set('text', $$('#plugin-menu li').length);
+                if ($('searchPluginContent').get("value").toLowerCase() === "")
+                {
+                    $$('#plugin-menu li').show();
+                    $('pluginsFoundCounter').set('text', $$('#plugin-menu li').length);
+                }
+                else
+                {
+                    $('pluginsFoundCounter').set('text', '0');
+                }
             }
             else
             {
-                $$('#plugin-menu li').hide();
                 result.show();
                 $('pluginsFoundCounter').set('text', result.length);
             }

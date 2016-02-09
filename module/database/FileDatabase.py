@@ -42,7 +42,7 @@ class FileHandler:
         self.core = core
 
         # translations
-        self.statusMsg = [_("finished"), _("offline"), _("online"), _("queued"), _("skipped"), _("waiting"), _("temp. offline"), _("starting"), _("failed"), _("aborted"), _("decrypting"), _("custom"), _("downloading"), _("processing"), _("unknown")]
+        self.statusMsg = ["finished", "offline", "online", "queued", "skipped", "waiting", "temp. offline", "starting", "failed", "aborted", "decrypting", "custom", "downloading", "processing", "unknown"]
 
         self.cache = {} #holds instances for files
         self.packageCache = {}  # same for packages

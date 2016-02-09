@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pyload\n"
 "Report-Msgid-Bugs-To: 'bugs@pyload.org'\n"
 "POT-Creation-Date: 2014-07-13 20:53+0200\n"
-"PO-Revision-Date: 2015-01-18 18:30-0500\n"
+"PO-Revision-Date: 2016-02-09 23:35+0100\n"
 "Last-Translator: pyloadTeam <team@pyload.org>\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: crowdin.com\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Crowdin-Project: pyload\n"
 "X-Crowdin-File: /pyLoad/core.pot\n"
 
@@ -166,51 +166,51 @@ msgstr "Online"
 
 #: module/database/FileDatabase.py:45
 msgid "queued"
-msgstr "eingereiht"
+msgstr "Eingereiht"
 
 #: module/database/FileDatabase.py:45
 msgid "skipped"
-msgstr "übersprungen"
+msgstr "Übersprungen"
 
 #: module/database/FileDatabase.py:45
 msgid "waiting"
-msgstr "wartend"
+msgstr "Warte"
 
 #: module/database/FileDatabase.py:45
 msgid "temp. offline"
-msgstr "kurzzeitig offline"
+msgstr "Vorübergehend offline"
 
 #: module/database/FileDatabase.py:45
 msgid "starting"
-msgstr "starte"
+msgstr "Starte"
 
 #: module/database/FileDatabase.py:45
 msgid "failed"
-msgstr "fehlgeschlagen"
+msgstr "Fehlgeschlagen"
 
 #: module/database/FileDatabase.py:45
 msgid "aborted"
-msgstr "abgebrochen"
+msgstr "Abgebrochen"
 
 #: module/database/FileDatabase.py:45
 msgid "decrypting"
-msgstr "entschlüsseln"
+msgstr "Entschlüssle"
 
 #: module/database/FileDatabase.py:45
 msgid "custom"
-msgstr "benutzerdefiniert"
+msgstr "Benutzerdefiniert"
 
 #: module/database/FileDatabase.py:45
 msgid "downloading"
-msgstr "downloade"
+msgstr "Lade herunter"
 
 #: module/database/FileDatabase.py:45
 msgid "processing"
-msgstr "verarbeite"
+msgstr "Verarbeite"
 
 #: module/database/FileDatabase.py:45
 msgid "unknown"
-msgstr "unbekannt"
+msgstr "Unbekannt"
 
 #: module/database/FileDatabase.py:531 module/plugins/hooks/IRCInterface.py:74
 #: module/plugins/hooks/XMPPInterface.py:83
@@ -533,8 +533,7 @@ msgstr "Authorisierung erforderlich (Benutzername:Passwort)"
 #: module/plugins/hoster/MultiDebridCom.py:40
 #: module/plugins/hoster/ReloadCc.py:26 module/plugins/hoster/OverLoadMe.py:38
 #: module/plugins/hoster/RehostTo.py:25
-#: module/plugins/hoster/PremiumizeMe.py:24
-#: module/plugins/hooks/RPNetBiz.py:45
+#: module/plugins/hoster/PremiumizeMe.py:24 module/plugins/hooks/RPNetBiz.py:45
 #, python-format
 msgid "Please enter your %s account or deactivate this plugin"
 msgstr "Bitte gib deine %s Kontodaten ein oder deaktiviere dieses Plugin"
@@ -885,4 +884,3 @@ msgstr "%(count)d Links wurden zum Paket #%(package)d hinzugefügt "
 #: module/common/JsEngine.py:156
 msgid "No js engine detected, please install either Spidermonkey, ossp-js, pyv8 or rhino"
 msgstr "Keine JS Engine erkannt. Bitte installiere entweder Spidermonkey, ossp-js, pyv8 oder rhino"
-

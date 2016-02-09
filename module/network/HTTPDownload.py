@@ -13,23 +13,24 @@
 
     You should have received a copy of the GNU General Public License
     along with this program; if not, see <http://www.gnu.org/licenses/>.
-    
+
     @author: RaNaN
 """
 
-from os import remove, fsync
-from os.path import dirname
-from time import sleep, time
-from shutil import move
-from logging import getLogger
-
 import pycurl
-
-from HTTPChunk import ChunkInfo, HTTPChunk
+from HTTPChunk import ChunkInfo
+from HTTPChunk import HTTPChunk
 from HTTPRequest import BadHeader
-
+from logging import getLogger
 from module.plugins.Plugin import Abort
-from module.utils import save_join, fs_encode
+from module.utils import fs_encode
+from module.utils import save_join
+from os import fsync
+from os import remove
+from os.path import dirname
+from shutil import move
+from time import sleep
+from time import time
 
 class HTTPDownload():
     """ loads a url http + ftp """
@@ -63,7 +64,7 @@ class HTTPDownload():
         except IOError:
             self.info = ChunkInfo(filename)
 
-        self.chunkSupport = None
+        self.chunkSupport = True
         self.m = pycurl.CurlMulti()
 
         #needed for speed calculation
@@ -95,7 +96,7 @@ class HTTPDownload():
             for i in range(1, self.info.getCount()):
                 #input file
                 fo.seek(
-                    self.info.getChunkRange(i - 1)[1] + 1) #seek to beginning of chunk, to get rid of overlapping chunks
+                        self.info.getChunkRange(i - 1)[1] + 1) #seek to beginning of chunk, to get rid of overlapping chunks
                 fname = fs_encode("%s.chunk%d" % (self.filename, i))
                 fi = open(fname, "rb")
                 buf = 32 * 1024
@@ -130,7 +131,7 @@ class HTTPDownload():
         except pycurl.error, e:
             #code 33 - no resume
             code = e.args[0]
-            if code == 33:
+            if resume is True and code == 33:
                 # try again without resume
                 self.log.debug("Errno 33 -> Restart without resume")
 
@@ -151,6 +152,7 @@ class HTTPDownload():
         if not resume:
             self.info.clear()
             self.info.addChunk("%s.chunk0" % self.filename, (0, 0)) #create an initial entry
+            self.info.save()
 
         self.chunks = []
 
@@ -164,8 +166,8 @@ class HTTPDownload():
         chunksDone = set()  # list of curl handles that are finished
         chunksCreated = False
         done = False
-        if self.info.getCount() > 1: # This is a resume, if we were chunked originally assume still can
-            self.chunkSupport = True
+        if self.info.getCount() is 0: # This is a resume, if we were chunked originally assume still can
+            self.chunkSupport = False
 
         while 1:
             #need to create chunks
@@ -274,7 +276,7 @@ class HTTPDownload():
             # calc speed once per second, averaging over 3 seconds
             if lastTimeCheck + 1 < t:
                 diff = [c.arrived - (self.lastArrived[i] if len(self.lastArrived) > i else 0) for i, c in
-                        enumerate(self.chunks)]
+                    enumerate(self.chunks)]
 
                 self.lastSpeeds[1] = self.lastSpeeds[0]
                 self.lastSpeeds[0] = self.speeds

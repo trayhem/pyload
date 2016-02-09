@@ -3,6 +3,8 @@
 
 <script type="text/javascript">
 
+/* global Request */
+/* global Fx */
 var em;
 var operafix = (navigator.userAgent.toLowerCase().search("opera") >= 0);
 
@@ -41,30 +43,30 @@ var EntryManager = new Class({
         this.ids.each(function(id,index){
             var entry = new LinkEntry(id);
             entry.parse();
-            this.entries.push(entry)
+            this.entries.push(entry);
             }, this);
     },
     update: function(data){
 
         try{
         this.ids = this.entries.map(function(item){
-            return item.fid
+            return item.fid;
             });
 
         this.ids.filter(function(id){
-            return !this.ids.contains(id)
+            return !this.ids.contains(id);
         },data).each(function(id){
             var index = this.ids.indexOf(id);
             this.entries[index].remove();
-            this.entries = this.entries.filter(function(item){return item.fid != this},id);
-            this.ids = this.ids.erase(id)
+            this.entries = this.entries.filter(function(item){return item.fid !== this;},id);
+                                this.ids = this.ids.erase(id);
             }, this);
 
         data.links.each(function(link, i){
             if (this.ids.contains(link.fid)){
 
                 var index = this.ids.indexOf(link.fid);
-                this.entries[index].update(link)
+                this.entries[index].update(link);
 
             }else{
                 var entry = new LinkEntry(link.fid);
@@ -76,7 +78,7 @@ var EntryManager = new Class({
                 entry.fadeBar.start('opacity', 1);
 
             }
-            }, this)
+            }, this);
 
         }catch(e){
             //alert(e)
@@ -113,11 +115,11 @@ var LinkEntry = new Class({
                 tr: new Element('tr', {
                 'html': '',
                 'styles':{
-                    'opacity': 0,
+                    'opacity': 0
                 }
                 }),
                 status: new Element('td', {
-                'html': '&nbsp;',
+                'html': '&nbsp;'
                 }),
                 statusspan: new Element('span', {
                 'html': item.statusmsg,
@@ -142,20 +144,20 @@ var LinkEntry = new Class({
                 'html': '',
                 'class': 'glyphicon glyphicon-remove',
                         'styles':{
-                            'margin-left': '3px',
+                            'margin-left': '3px'
                         }
                 }),
                 pgbTr: new Element('tr', {
                 'html':'',
                         'styles':{
-                            'border-top-color': '#fff',
+                            'border-top-color': '#fff'
                         }
                 }),
                 progress: new Element('div', {
                 'html':'',
                 'class':'progress',
                         'styles':{
-                            'margin-bottom': '0px',
+                            'margin-bottom': '0px'
                         }
                 }),
                 pgb: new Element('div', {
@@ -164,7 +166,7 @@ var LinkEntry = new Class({
                 'role':'progress',
                 'styles':{
                     'width': item.percent+'%',
-                    'background-color': '#ddd'
+                    'background-color': [Math.round(120/100*item.percent),80,70].hsbToRgb().rgbToHex()
                 }
                 })
 
@@ -177,7 +179,7 @@ var LinkEntry = new Class({
             this.elements.pgbTr.adopt(new Element('td',{'colspan':5}).adopt(this.elements.progress));
             this.initEffects();
             }catch(e){
-                alert(e)
+                alert(e);
             }
         },
         initEffects: function(){
@@ -197,16 +199,16 @@ var LinkEntry = new Class({
                 this.elements.info.set('text', item.info);
                 this.elements.bleft.set('text', item.format_size);
                 this.elements.percent.set('text', item.percent+ '% / '+ humanFileSize(item.size-item.bleft));
-                if (item.statusmsg == "waiting") {
-                        this.elements.statusspan.set('class', 'label label-warning')
-                } else if (item.statusmsg == "starting") {
-                        this.elements.statusspan.set('class', 'label label-info')
-                } else if (item.statusmsg == "downloading") {
-                        this.elements.statusspan.set('class', 'label label-success')
-                } else if (item.stausmsg == "extracting") {
-                        this.elements.statusspan.set('class', 'label label-primary')
+                if (item.statusmsg === "waiting") {
+                        this.elements.statusspan.set('class', 'label label-warning');
+                            } else if (item.statusmsg === "starting") {
+                                this.elements.statusspan.set('class', 'label label-info');
+                            } else if (item.statusmsg === "downloading") {
+                                this.elements.statusspan.set('class', 'label label-success');
+                            } else if (item.stausmsg === "extracting") {
+                                this.elements.statusspan.set('class', 'label label-primary');
                 } else {
-                        this.elements.statusspan.set('class', 'label label-default')
+                        this.elements.statusspan.set('class', 'label label-default');
                 }
                 if(!operafix)
                 {
@@ -222,7 +224,7 @@ var LinkEntry = new Class({
                         'styles', {
                             'height': '4px',
                             'width': item.percent+'%',
-                            'background-color': [Math.round(50/200*item.percent),0,200].hsbToRgb().rgbToHex(),
+                            'background-color': [Math.round(50/200*item.percent),0,200].hsbToRgb().rgbToHex()
                          });
                 }
 
@@ -250,13 +252,14 @@ var LinkEntry = new Class({
     <th>{{_("Progress")}}</th>
   </tr>
     </thead>
-</br>
-  <tbody id="LinksAktiv">
+    <tbody id="LinksAktiv">
 
   {% for link in content %}
   <tr id="link_{{ link.id }}">
-          <td id="link_{{ link.id }}_status"><span  class="label label-{% if link.status == 'downloading' %}success{% endif %}{% if link.status == 'extracting' %}primary{% endif %}{% if link.status == 'starting' %}warning{% else %}default{% endif %}">{{ link.status }}</span></td>
-          <td id="link_{{ link.id }}_name">{{ link.name }}</td>
+      <td id="link_{{ link.id }}_status">
+          <span class="label label-{% if link.status == 'downloading' %}success{% elif link.status == 'waiting' %}warning{% elif link.status == 'extracting' %}primary{% elif link.status == 'starting' %}info{% else %}default{% endif %}">{{ _(link.status) }}</span>
+      </td>
+      <td id="link_{{ link.id }}_name">{{ link.name }}</td>
           <td id="link_{{ link.id }}_info">{{ link.info }}</td>
           <td id="link_{{ link.id }}_bleft">{{ link.format_size }}</td>
     <td>

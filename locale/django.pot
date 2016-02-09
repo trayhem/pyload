@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pyLoad 0.4.9\n"
 "Report-Msgid-Bugs-To: 'bugs@pyload.org'\n"
-"POT-Creation-Date: 2016-02-09 14:28+0100\n"
+"POT-Creation-Date: 2016-02-09 21:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,21 +144,21 @@ msgstr ""
 msgid "Reset"
 msgstr ""
 
-#: Flat/base.html:20 Flat/base.html:138 Next/base.html:24 Next/base.html:166
+#: Flat/base.html:20 Flat/base.html:138 Next/base.html:26 Next/base.html:194
 #: dark/base.html:20 dark/base.html:139 default/base.html:20
 #: default/base.html:139
 msgid "Webinterface"
 msgstr ""
 
-#: Flat/base.html:39 Next/base.html:43 dark/base.html:39 default/base.html:39
+#: Flat/base.html:39 Next/base.html:45 dark/base.html:39 default/base.html:39
 msgid "pyLoad Update available!"
 msgstr ""
 
-#: Flat/base.html:46 Next/base.html:50 dark/base.html:46 default/base.html:46
+#: Flat/base.html:46 Next/base.html:52 dark/base.html:46 default/base.html:46
 msgid "Plugins updated, please restart!"
 msgstr ""
 
-#: Flat/base.html:52 Next/base.html:143 dark/base.html:52 default/base.html:52
+#: Flat/base.html:52 Next/base.html:139 dark/base.html:52 default/base.html:52
 msgid "Captcha waiting"
 msgstr ""
 
@@ -170,17 +170,17 @@ msgstr ""
 msgid "Info"
 msgstr ""
 
-#: Flat/base.html:65 Next/base.html:60 dark/base.html:65 default/base.html:65
+#: Flat/base.html:65 Next/base.html:62 dark/base.html:65 default/base.html:65
 msgid "Please Login!"
 msgstr ""
 
-#: Flat/base.html:84 Flat/home.html:211 Next/base.html:92 dark/base.html:84
+#: Flat/base.html:84 Flat/home.html:211 Next/base.html:94 dark/base.html:84
 #: dark/home.html:211 default/base.html:84 default/home.html:211
 msgid "Home"
 msgstr ""
 
 #: Flat/base.html:87 Flat/home.html:214 Flat/queue.html:15 Flat/window.html:34
-#: Next/base.html:95 Next/queue.html:15 Next/window.html:34 dark/base.html:87
+#: Next/base.html:97 Next/queue.html:15 Next/window.html:34 dark/base.html:87
 #: dark/home.html:214 dark/queue.html:15 dark/window.html:36
 #: default/base.html:87 default/home.html:214 default/queue.html:15
 #: default/window.html:34
@@ -188,7 +188,7 @@ msgid "Queue"
 msgstr ""
 
 #: Flat/base.html:90 Flat/home.html:217 Flat/queue.html:17 Flat/window.html:36
-#: Next/base.html:98 Next/queue.html:17 Next/window.html:36 dark/base.html:90
+#: Next/base.html:100 Next/queue.html:17 Next/window.html:36 dark/base.html:90
 #: dark/home.html:217 dark/queue.html:17 dark/window.html:40
 #: default/base.html:90 default/home.html:217 default/queue.html:17
 #: default/window.html:36
@@ -196,21 +196,21 @@ msgid "Collector"
 msgstr ""
 
 #: Flat/base.html:93 Flat/downloads.html:6 Flat/home.html:220
-#: Next/base.html:101 Next/downloads.html:6 dark/base.html:93
+#: Next/base.html:103 Next/downloads.html:6 dark/base.html:93
 #: dark/downloads.html:6 dark/home.html:220 default/base.html:93
 #: default/downloads.html:6 default/home.html:220
 msgid "Downloads"
 msgstr ""
 
 #: Flat/base.html:99 Flat/home.html:226 Flat/logs.html:3 Flat/logs.html:4
-#: Next/base.html:107 Next/logs.html:3 Next/logs.html:4 dark/base.html:99
+#: Next/base.html:109 Next/logs.html:3 Next/logs.html:4 dark/base.html:99
 #: dark/home.html:226 dark/logs.html:3 dark/logs.html:4 default/base.html:99
 #: default/home.html:226 default/logs.html:3 default/logs.html:4
 msgid "Logs"
 msgstr ""
 
 #: Flat/base.html:102 Flat/home.html:229 Flat/settings.html:3
-#: Flat/settings.html:4 Next/base.html:110 Next/settings.html:3
+#: Flat/settings.html:4 Next/base.html:112 Next/settings.html:3
 #: Next/settings.html:4 dark/base.html:102 dark/home.html:229
 #: dark/settings.html:3 dark/settings.html:4 default/base.html:102
 #: default/home.html:229 default/settings.html:3 default/settings.html:4
@@ -237,31 +237,31 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#: Flat/base.html:123 Next/base.html:150 dark/base.html:123
+#: Flat/base.html:123 Next/base.html:149 Next/base.html:179 dark/base.html:123
 #: default/base.html:123
 msgid "Download:"
 msgstr ""
 
-#: Flat/base.html:123 Flat/settings_item.html:14 Next/base.html:151
+#: Flat/base.html:123 Flat/settings_item.html:14 Next/base.html:180
 #: Next/settings_item.html:15 dark/base.html:123 dark/base.html:124
 #: dark/settings_item.html:14 default/base.html:123 default/base.html:124
 #: default/settings_item.html:14
 msgid "on"
 msgstr ""
 
-#: Flat/base.html:123 Flat/settings_item.html:16 Next/base.html:150
-#: Next/base.html:151 Next/settings_item.html:17 dark/base.html:123
+#: Flat/base.html:123 Flat/settings_item.html:16 Next/base.html:179
+#: Next/base.html:180 Next/settings_item.html:17 dark/base.html:123
 #: dark/base.html:124 dark/settings_item.html:16 default/base.html:123
 #: default/base.html:124 default/settings_item.html:16
 msgid "off"
 msgstr ""
 
-#: Flat/base.html:124 Next/base.html:152 dark/base.html:125
+#: Flat/base.html:124 Next/base.html:163 Next/base.html:181 dark/base.html:125
 #: default/base.html:125
 msgid "Speed:"
 msgstr ""
 
-#: Flat/base.html:125 Next/base.html:153 dark/base.html:126
+#: Flat/base.html:125 Next/base.html:167 Next/base.html:182 dark/base.html:126
 #: default/base.html:126
 msgid "Active:"
 msgstr ""
@@ -270,12 +270,12 @@ msgstr ""
 msgid "Reload page"
 msgstr ""
 
-#: Flat/base.html:156 Next/base.html:176 dark/base.html:157
+#: Flat/base.html:156 Next/base.html:204 dark/base.html:157
 #: default/base.html:157
 msgid "loading"
 msgstr ""
 
-#: Flat/base.html:165 Next/base.html:185 dark/base.html:166
+#: Flat/base.html:165 Next/base.html:213 dark/base.html:166
 #: default/base.html:166
 msgid "Back to top"
 msgstr ""
@@ -700,8 +700,33 @@ msgstr ""
 msgid "Destination"
 msgstr ""
 
-#: Next/base.html:151 dark/base.html:124 default/base.html:124
+#: Next/base.html:132
+msgid "Abort Downloads"
+msgstr ""
+
+#: Next/base.html:133
+msgid "Add Download"
+msgstr ""
+
+#: Next/base.html:153 Next/base.html:180 dark/base.html:124
+#: default/base.html:124
 msgid "Reconnect:"
+msgstr ""
+
+#: Next/base.html:169
+msgid "Queued:"
+msgstr ""
+
+#: Next/base.html:171
+msgid "Total:"
+msgstr ""
+
+#: Next/base.html:227
+msgid "Activated"
+msgstr ""
+
+#: Next/base.html:227
+msgid "Deactivated"
 msgstr ""
 
 #: Next/settings.html:64
