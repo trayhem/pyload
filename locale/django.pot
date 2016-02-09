@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pyLoad 0.4.9\n"
 "Report-Msgid-Bugs-To: 'bugs@pyload.org'\n"
-"POT-Creation-Date: 2016-02-09 12:05+0100\n"
+"POT-Creation-Date: 2016-02-09 13:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: Flat/admin.html:25 Flat/home.html:237 Flat/queue.html:82
 #: Flat/settings.html:91 Flat/window.html:7 Next/admin.html:27
-#: Next/home.html:247 Next/queue.html:86 Next/settings.html:96
+#: Next/home.html:247 Next/queue.html:86 Next/settings.html:103
 #: Next/window.html:8 dark/admin.html:25 dark/home.html:237 dark/queue.html:82
 #: dark/settings.html:91 dark/window.html:7 default/admin.html:25
 #: default/home.html:237 default/queue.html:82 default/settings.html:92
@@ -80,10 +80,11 @@ msgstr ""
 #: Flat/admin.html:61 Flat/admin.html:91 Flat/captcha.html:33
 #: Flat/queue.html:97 Flat/settings.html:167 Next/admin.html:62
 #: Next/admin.html:94 Next/captcha.html:31 Next/queue.html:100
-#: Next/settings.html:51 Next/settings.html:173 dark/admin.html:61
-#: dark/admin.html:91 dark/captcha.html:33 dark/queue.html:97
-#: dark/settings.html:167 default/admin.html:62 default/admin.html:92
-#: default/captcha.html:33 default/queue.html:97 default/settings.html:168
+#: Next/settings.html:53 Next/settings.html:89 Next/settings.html:180
+#: dark/admin.html:61 dark/admin.html:91 dark/captcha.html:33
+#: dark/queue.html:97 dark/settings.html:167 default/admin.html:62
+#: default/admin.html:92 default/captcha.html:33 default/queue.html:97
+#: default/settings.html:168
 msgid "Submit"
 msgstr ""
 
@@ -98,7 +99,7 @@ msgid "User"
 msgstr ""
 
 #: Flat/admin.html:71 Flat/settings.html:179 Next/admin.html:74
-#: Next/settings.html:188 dark/admin.html:71 dark/settings.html:179
+#: Next/settings.html:195 dark/admin.html:71 dark/settings.html:179
 #: default/admin.html:72 default/settings.html:180
 msgid "Your username."
 msgstr ""
@@ -109,7 +110,7 @@ msgid "Current password"
 msgstr ""
 
 #: Flat/admin.html:76 Flat/settings.html:184 Next/admin.html:79
-#: Next/settings.html:193 dark/admin.html:76 dark/settings.html:184
+#: Next/settings.html:200 dark/admin.html:76 dark/settings.html:184
 #: default/admin.html:77 default/settings.html:185
 msgid "The password for this account."
 msgstr ""
@@ -136,7 +137,7 @@ msgstr ""
 
 #: Flat/admin.html:92 Flat/queue.html:98 Flat/settings.html:198
 #: Flat/window.html:41 Next/admin.html:95 Next/queue.html:101
-#: Next/settings.html:207 Next/window.html:41 dark/admin.html:92
+#: Next/settings.html:214 Next/window.html:41 dark/admin.html:92
 #: dark/queue.html:98 dark/settings.html:198 dark/window.html:47
 #: default/admin.html:93 default/queue.html:98 default/settings.html:199
 #: default/window.html:41
@@ -230,7 +231,7 @@ msgid "Cancel"
 msgstr ""
 
 #: Flat/base.html:117 Flat/settings.html:168 Flat/settings.html:197
-#: Next/settings.html:206 dark/base.html:117 dark/settings.html:168
+#: Next/settings.html:213 dark/base.html:117 dark/settings.html:168
 #: dark/settings.html:197 default/base.html:117 default/settings.html:169
 #: default/settings.html:198
 msgid "Add"
@@ -330,7 +331,7 @@ msgid "Active Downloads"
 msgstr ""
 
 #: Flat/home.html:238 Flat/settings.html:93 Next/home.html:246
-#: Next/settings.html:98 dark/home.html:238 dark/settings.html:93
+#: Next/settings.html:105 dark/home.html:238 dark/settings.html:93
 #: default/home.html:238 default/settings.html:94
 msgid "Status"
 msgstr ""
@@ -405,7 +406,7 @@ msgid "Remote Interface Port:"
 msgstr ""
 
 #: Flat/login.html:3 Flat/settings.html:178 Next/login.html:3
-#: Next/settings.html:186 dark/login.html:3 dark/settings.html:178
+#: Next/settings.html:193 dark/login.html:3 dark/settings.html:178
 #: default/login.html:3 default/settings.html:179
 msgid "Login"
 msgstr ""
@@ -417,7 +418,7 @@ msgstr ""
 
 #: Flat/login.html:19 Flat/queue.html:92 Flat/settings.html:92
 #: Flat/settings.html:183 Flat/window.html:21 Next/login.html:19
-#: Next/queue.html:96 Next/settings.html:97 Next/settings.html:191
+#: Next/queue.html:96 Next/settings.html:104 Next/settings.html:198
 #: Next/window.html:22 dark/login.html:22 dark/queue.html:92
 #: dark/settings.html:92 dark/settings.html:183 dark/window.html:21
 #: default/login.html:19 default/queue.html:92 default/settings.html:93
@@ -549,98 +550,98 @@ msgstr ""
 msgid "List of passwords used for unrar."
 msgstr ""
 
-#: Flat/settings.html:16 Next/settings.html:16 dark/settings.html:16
+#: Flat/settings.html:16 Next/settings.html:18 dark/settings.html:16
 #: default/settings.html:16
 msgid "General"
 msgstr ""
 
-#: Flat/settings.html:17 Next/settings.html:17 dark/settings.html:17
+#: Flat/settings.html:17 Next/settings.html:19 dark/settings.html:17
 #: default/settings.html:17
 msgid "Plugins"
 msgstr ""
 
-#: Flat/settings.html:18 Next/settings.html:18 dark/settings.html:18
+#: Flat/settings.html:18 Next/settings.html:20 dark/settings.html:18
 #: default/settings.html:18
 msgid "Accounts"
 msgstr ""
 
-#: Flat/settings.html:45 Flat/settings.html:74 Next/settings.html:47
-#: Next/settings.html:79 dark/settings.html:45 dark/settings.html:74
+#: Flat/settings.html:45 Flat/settings.html:74 Next/settings.html:49
+#: Next/settings.html:86 dark/settings.html:45 dark/settings.html:74
 #: default/settings.html:45 default/settings.html:75
 msgid "Choose a section from the menu"
 msgstr ""
 
-#: Flat/settings.html:90 Next/settings.html:95 dark/settings.html:90
+#: Flat/settings.html:90 Next/settings.html:102 dark/settings.html:90
 #: default/settings.html:91
 msgid "Plugin"
 msgstr ""
 
-#: Flat/settings.html:94 Next/settings.html:99 dark/settings.html:94
+#: Flat/settings.html:94 Next/settings.html:106 dark/settings.html:94
 #: default/settings.html:95
 msgid "Premium"
 msgstr ""
 
-#: Flat/settings.html:95 Next/settings.html:100 dark/settings.html:95
+#: Flat/settings.html:95 Next/settings.html:107 dark/settings.html:95
 #: default/settings.html:96
 msgid "Valid until"
 msgstr ""
 
-#: Flat/settings.html:96 Next/settings.html:101 dark/settings.html:96
+#: Flat/settings.html:96 Next/settings.html:108 dark/settings.html:96
 #: default/settings.html:97
 msgid "Traffic left"
 msgstr ""
 
-#: Flat/settings.html:97 Next/settings.html:102 dark/settings.html:97
+#: Flat/settings.html:97 Next/settings.html:109 dark/settings.html:97
 #: default/settings.html:98
 msgid "Time"
 msgstr ""
 
-#: Flat/settings.html:98 Next/settings.html:103 dark/settings.html:98
+#: Flat/settings.html:98 Next/settings.html:110 dark/settings.html:98
 #: default/settings.html:99
 msgid "Max Parallel"
 msgstr ""
 
-#: Flat/settings.html:99 Next/settings.html:104 dark/settings.html:99
+#: Flat/settings.html:99 Next/settings.html:111 dark/settings.html:99
 #: default/settings.html:100
 msgid "Delete?"
 msgstr ""
 
-#: Flat/settings.html:121 Next/settings.html:126 dark/settings.html:121
+#: Flat/settings.html:121 Next/settings.html:133 dark/settings.html:121
 #: default/settings.html:122
 msgid "valid"
 msgstr ""
 
-#: Flat/settings.html:124 Next/settings.html:129 dark/settings.html:124
+#: Flat/settings.html:124 Next/settings.html:136 dark/settings.html:124
 #: default/settings.html:125
 msgid "not valid"
 msgstr ""
 
-#: Flat/settings.html:131 Next/settings.html:136 dark/settings.html:131
+#: Flat/settings.html:131 Next/settings.html:143 dark/settings.html:131
 #: default/settings.html:132
 msgid "yes"
 msgstr ""
 
-#: Flat/settings.html:134 Next/settings.html:139 dark/settings.html:134
+#: Flat/settings.html:134 Next/settings.html:146 dark/settings.html:134
 #: default/settings.html:135
 msgid "no"
 msgstr ""
 
-#: Flat/settings.html:176 Next/settings.html:182 dark/settings.html:176
+#: Flat/settings.html:176 Next/settings.html:189 dark/settings.html:176
 #: default/settings.html:177
 msgid "Add Account"
 msgstr ""
 
-#: Flat/settings.html:177 Next/settings.html:183 dark/settings.html:177
+#: Flat/settings.html:177 Next/settings.html:190 dark/settings.html:177
 #: default/settings.html:178
 msgid "Enter your account data to use premium features."
 msgstr ""
 
-#: Flat/settings.html:188 Next/settings.html:196 dark/settings.html:188
+#: Flat/settings.html:188 Next/settings.html:203 dark/settings.html:188
 #: default/settings.html:189
 msgid "Type"
 msgstr ""
 
-#: Flat/settings.html:189 Next/settings.html:197 dark/settings.html:189
+#: Flat/settings.html:189 Next/settings.html:204 dark/settings.html:189
 #: default/settings.html:190
 msgid "Choose the hoster for your account."
 msgstr ""
@@ -704,6 +705,10 @@ msgstr ""
 msgid "Reconnect:"
 msgstr ""
 
-#: Next/settings.html:61
+#: Next/settings.html:64
 msgid "Enter plugin name here..."
+msgstr ""
+
+#: Next/settings.html:66
+msgid "Plugins found"
 msgstr ""
