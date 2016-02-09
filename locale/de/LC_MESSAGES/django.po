@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pyload\n"
 "Report-Msgid-Bugs-To: 'bugs@pyload.org'\n"
-"POT-Creation-Date: 2016-02-09 13:53+0100\n"
-"PO-Revision-Date: 2016-02-09 13:53+0100\n"
+"POT-Creation-Date: 2016-02-09 14:28+0100\n"
+"PO-Revision-Date: 2016-02-09 14:28+0100\n"
 "Last-Translator: pyloadTeam <team@pyload.org>\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -572,8 +572,7 @@ msgstr "Konten"
 msgid "Choose a section from the menu"
 msgstr "Wähle einen Abschnitt aus dem Menü."
 
-#: Flat/settings.html:90 Next/settings.html:102 dark/settings.html:90
-#: default/settings.html:91
+#: Flat/settings.html:90 dark/settings.html:90 default/settings.html:91
 msgid "Plugin"
 msgstr "Erweiterung"
 
@@ -713,6 +712,10 @@ msgstr "Suche..."
 #: Next/settings.html:66
 msgid "Plugins found"
 msgstr "Plugins gefunden"
+
+#: Next/settings.html:102
+msgid "Hoster"
+msgstr "Hoster"
 
 #~ msgid "Settings saved."
 #~ msgstr "Einstellungen gespeichert"
